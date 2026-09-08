@@ -4,6 +4,12 @@ import createMDX from "@next/mdx"
 const nextConfig: NextConfig = {
   // Allow .mdx files to act as pages or be imported as components
   pageExtensions: ["ts", "tsx", "mdx"],
+  images: {
+    remotePatterns: [
+      { protocol: "https", hostname: "images.unsplash.com" },
+      { protocol: "https", hostname: "tailark.com" },
+    ],
+  },
 }
 
 const withMDX = createMDX({

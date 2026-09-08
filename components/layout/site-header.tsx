@@ -30,7 +30,8 @@ export function SiteHeader({ locale, nav }: SiteHeaderProps) {
   const links = [
     { href: localePath(locale), label: nav.home, exact: true },
     { href: localePath(locale, "model"), label: nav.model, exact: false },
-    { href: localePath(locale, "pricing"), label: nav.pricing, exact: false },
+    { href: localePath(locale, "simulator"), label: nav.simulator, exact: false },
+    { href: localePath(locale, "use-cases"), label: nav.useCases, exact: false },
     { href: localePath(locale, "faq"), label: nav.faq, exact: false },
     { href: localePath(locale, "join"), label: nav.join, exact: false },
   ]

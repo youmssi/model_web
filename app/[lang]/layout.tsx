@@ -4,8 +4,6 @@ import { Geist_Mono, Inter } from "next/font/google"
 
 import "../globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
-import { SiteHeader } from "@/components/layout/site-header"
-import { SiteFooter } from "@/components/layout/site-footer"
 import { getDictionary } from "@/lib/i18n/dictionaries"
 import { isLocale, locales, siteUrl } from "@/lib/i18n/config"
 
@@ -54,7 +52,6 @@ export default async function RootLayout({
 }) {
   const { lang } = await params
   if (!isLocale(lang)) notFound()
-  const dict = getDictionary(lang)
 
   return (
     <html
@@ -63,11 +60,7 @@ export default async function RootLayout({
       className={`antialiased ${inter.variable} ${fontMono.variable}`}
     >
       <body className="flex min-h-svh flex-col font-sans">
-        <ThemeProvider>
-          <SiteHeader locale={lang} nav={dict.nav} />
-          <main className="flex-1">{children}</main>
-          <SiteFooter locale={lang} footer={dict.footer} nav={dict.nav} />
-        </ThemeProvider>
+        <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>
   )
