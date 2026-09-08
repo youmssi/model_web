@@ -14,7 +14,8 @@ export function SiteFooter({ locale, footer, nav }: SiteFooterProps) {
   const links = [
     { href: localePath(locale), label: nav.home },
     { href: localePath(locale, "model"), label: nav.model },
-    { href: localePath(locale, "pricing"), label: nav.pricing },
+    { href: localePath(locale, "simulator"), label: nav.simulator },
+    { href: localePath(locale, "use-cases"), label: nav.useCases },
     { href: localePath(locale, "faq"), label: nav.faq },
     { href: localePath(locale, "join"), label: nav.join },
   ]

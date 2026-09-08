@@ -2,7 +2,7 @@ import { Clock4, Eye, ShieldCheck } from "lucide-react"
 
 import { AnimatedContent } from "@/components/AnimatedContent"
 import { SectionHeading } from "@/components/marketing/section-heading"
-import { Card, CardContent } from "@/components/ui/card"
+import SpotlightCard from "@/components/SpotlightCard"
 import type { Dictionary } from "@/lib/i18n/dictionaries"
 
 interface PillarsProps {
@@ -30,18 +30,20 @@ export function Pillars({ pillars }: PillarsProps) {
                 distance={40}
                 duration={0.6}
                 delay={index * 0.1}
+                className="h-full"
               >
-                <Card className="h-full">
-                  <CardContent className="flex h-full flex-col gap-3">
-                    <span className="flex size-9 items-center justify-center rounded-md bg-primary/10 text-primary">
-                      <Icon className="size-4.5" />
-                    </span>
-                    <h3 className="text-base font-semibold">{item.title}</h3>
-                    <p className="text-sm leading-relaxed text-muted-foreground">
-                      {item.text}
-                    </p>
-                  </CardContent>
-                </Card>
+                <SpotlightCard
+                  className="flex h-full flex-col gap-4 rounded-2xl p-7"
+                  spotlightColor="rgba(16, 160, 111, 0.14)"
+                >
+                  <span className="flex size-10 items-center justify-center rounded-md bg-primary/10 text-primary">
+                    <Icon className="size-5" />
+                  </span>
+                  <h3 className="text-base font-semibold">{item.title}</h3>
+                  <p className="text-sm leading-relaxed text-muted-foreground">
+                    {item.text}
+                  </p>
+                </SpotlightCard>
               </AnimatedContent>
             )
           })}

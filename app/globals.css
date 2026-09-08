@@ -123,6 +123,31 @@
     --sidebar-ring: oklch(0.78 0.13 160);
 }
 
+/* Scoped dusk landing theme (Tailark dusk kit). Applied only to the isolated
+   /[lang]/dusk route via .dusk-root so the rest of the site keeps MRVIN tokens. */
+.dusk-root {
+  --background: #09090b;
+  --foreground: #fafafa;
+  --card: color-mix(in oklab, #27272a 55%, #000);
+  --card-foreground: #fafafa;
+  --popover: #09090b;
+  --popover-foreground: #fafafa;
+  --primary: #fafafa;
+  --primary-foreground: #09090b;
+  --secondary: #27272a;
+  --secondary-foreground: #fafafa;
+  --muted: #27272a;
+  --muted-foreground: #a1a1aa;
+  --accent: #27272a;
+  --accent-foreground: #fafafa;
+  --destructive: #dc2626;
+  --destructive-foreground: #fafafa;
+  --input: #27272a;
+  --ring: #fafafa;
+  --border: color-mix(in oklab, #fafafa 7.5%, transparent);
+  color-scheme: dark;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;

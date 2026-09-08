@@ -1,16 +1,17 @@
 {
   "meta": {
     "siteName": "MRVIN100",
-    "title": "MRVIN100 — World-class engineering, built for Africa",
-    "description": "The MRVIN100 model: dedicated engineering teams from a vetted African network, managed by a Success Delivery Manager, with transparent pricing and a 72-hour replacement guarantee."
+    "title": "The MRVIN100 Model, an open collective for African engineering",
+    "description": "An open model for engineering in Africa: published economics, a 40% developer share, a 72-hour replacement standard, and market-zone standards that companies, talent, states and institutions can adopt."
   },
   "nav": {
     "home": "Home",
     "model": "The Model",
-    "pricing": "Pricing",
+    "simulator": "Simulator",
+    "useCases": "Use cases",
     "faq": "FAQ",
     "join": "Join",
-    "bookCall": "Book a call",
+    "bookCall": "Join the model",
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
     "language": "Change language",
@@ -18,57 +19,60 @@
   },
   "home": {
     "hero": {
-      "badge": "The MRVIN100 Model",
-      "titleLine1": "World-class engineering talent,",
-      "titleAccent": "built for Africa",
-      "subtitle": "Dedicated engineering teams that understand your market, your operations and your timezone. International-grade delivery without the offshore compromise.",
-      "primaryCta": "Join the model",
-      "secondaryCta": "Read the documentation"
+      "badge": "An open collective for African engineering",
+      "titleLine1": "One model, adopted across",
+      "titleAccent": "the continent",
+      "subtitle": "MRVIN100 is a published framework, not a closed company: transparent economics, a 40% developer share, a 72-hour replacement standard, and market-zone standards that anyone can adopt.",
+      "primaryCta": "Join the collective",
+      "secondaryCta": "Read the model"
     },
-    "trusted": {
-      "label": "They trusted our talent",
-      "subtext": "The engineers in our network have delivered for leading institutions across Cameroon and beyond.",
-      "ariaLabel": "Organizations that trusted MRVIN100 talent"
+    "adopters": {
+      "label": "Built with and adopted by",
+      "subtext": "Companies, institutions and developers who work under the model and shape its standards.",
+      "ariaLabel": "Organizations and developers who adopted the MRVIN100 model",
+      "orgsLabel": "Organizations that trusted the model's talent",
+      "devsLabel": "Developers who work under the model",
+      "devShareNote": "40% of every contract goes to the developer"
     },
     "how": {
-      "label": "How it works",
-      "title": "From brief to delivery in 4 steps",
-      "subtitle": "A structured process for enterprise teams that eliminates friction and guarantees timely delivery.",
+      "label": "How the model works",
+      "title": "A framework anyone can adopt",
+      "subtitle": "The model is not a service catalog. It is a standard of practice, published in full and maintained per market zone.",
       "steps": [
         {
-          "title": "Tell us your needs",
-          "text": "Share your project, stack and timeline. We qualify your request within 72 hours."
+          "title": "Read the published framework",
+          "text": "The revenue split, the SDM role and the 72-hour standard are public. No black box, no hidden margin."
         },
         {
-          "title": "We match your team",
-          "text": "We select the right profiles from our vetted, Cameroon-based network of engineers."
+          "title": "Simulate your case",
+          "text": "The simulator estimates in real time what each actor gains from a contract. Made for decision makers."
         },
         {
-          "title": "Your SDM takes over",
-          "text": "Your Success Delivery Manager handles daily coordination, sprints and progress reports."
+          "title": "Adopt the standards",
+          "text": "Companies, talent, states and institutions join the collective under the same published rules."
         },
         {
-          "title": "Deliver with confidence",
-          "text": "Weekly reports, bi-weekly demos and a 72-hour replacement guarantee on every contract."
+          "title": "Standards are maintained",
+          "text": "Each market zone maintains its own parameters, updated transparently over time."
         }
       ]
     },
     "pillars": {
-      "label": "Why MRVIN100",
-      "title": "Infrastructure, not outsourcing",
-      "subtitle": "Three commitments make the model work — for clients and for developers.",
+      "label": "The three commitments",
+      "title": "What the model guarantees",
+      "subtitle": "Three commitments hold for every actor of the channel, from the company to the developer.",
       "items": [
         {
-          "title": "Same timezone",
-          "text": "CET/WAT alignment means real-time collaboration with your team. No lag, no overnight hand-offs, no friction."
-        },
-        {
           "title": "Radical transparency",
-          "text": "40% of every contract goes directly to the developer — published publicly and non-negotiable."
+          "text": "40% of every contract goes directly to the developer, published publicly and non-negotiable."
         },
         {
-          "title": "72-hour guarantee",
-          "text": "A replacement is guaranteed within 72 hours on every contract. No exceptions, no extra invoice."
+          "title": "Accountable delivery",
+          "text": "A Success Delivery Manager owns coordination and quality on every project, capped at five projects."
+        },
+        {
+          "title": "The 72-hour standard",
+          "text": "A replacement within 72 hours on every contract, with paid knowledge transfer and no extra invoice."
         }
       ]
     },
@@ -76,134 +80,171 @@
       "label": "The numbers",
       "items": [
         { "value": 40, "prefix": "", "suffix": "%", "label": "of every contract goes to the developer" },
-        { "value": 72, "prefix": "", "suffix": "h", "label": "replacement guarantee on every contract" },
-        { "value": 30, "prefix": "", "suffix": "%+", "label": "savings compared to offshore dependency" },
-        { "value": 97, "prefix": "", "suffix": "%", "label": "on-time delivery rate" }
+        { "value": 72, "prefix": "", "suffix": "h", "label": "replacement standard on every contract" },
+        { "value": 97, "prefix": "", "suffix": "%", "label": "on-time delivery rate" },
+        { "value": 8, "prefix": "", "suffix": "-12%", "label": "SDM share, tied to project complexity" }
       ]
     },
-    "pricingPreview": {
-      "label": "Plans & pricing",
-      "title": "Simple, transparent pricing",
-      "subtitle": "Dedicated developer + Success Delivery Manager + 72h replacement guarantee. No hidden fees.",
-      "cta": "See all rates"
+    "simulatorPreview": {
+      "label": "Simulator",
+      "title": "See the model in numbers",
+      "subtitle": "Enter a contract value and watch the published split allocate value across every actor, in real time.",
+      "cta": "Open the simulator"
+    },
+    "useCasesPreview": {
+      "label": "Use cases",
+      "title": "Where the model creates value",
+      "subtitle": "From a single company to an entire region: the model benefits companies, talent, states, universities and agencies.",
+      "cta": "Explore all use cases"
     },
     "cta": {
-      "title": "Ready to build with African excellence?",
-      "text": "Book a free 30-minute discovery call. No commitment, no pressure — just a conversation about your engineering needs.",
-      "primary": "Book a free call",
-      "secondary": "Explore the model"
+      "title": "Adopt the model. Build the collective.",
+      "text": "Join as a company, a developer, a country or an institution. Start with the published framework and the simulator.",
+      "primary": "Join the collective",
+      "secondary": "Read the documentation"
     }
   },
-  "pricingPage": {
-    "title": "Plans & pricing",
-    "subtitle": "Dedicated developer + Success Delivery Manager + 72h replacement guarantee. No hidden fees.",
-    "rates": {
-      "label": "Reference rates",
-      "title": "Hourly rates in FCFA",
-      "subtitle": "Reference hourly rates used for custom quotes and FCFA-denominated projects.",
-      "columns": ["Level", "Hourly rate", "Typical profile"],
-      "rows": [
-        ["Junior", "15,000 FCFA / h", "Startups, MVPs, maintenance"],
-        ["Middle", "25,000 FCFA / h", "Product development, feature teams"],
-        ["Senior", "40,000 FCFA / h", "Enterprise systems, complex integrations"]
-      ]
+  "simulatorPage": {
+    "title": "Simulator",
+    "subtitle": "Estimate in real time what each actor of the model gains from a contract. Adjust the inputs, watch the split update, and switch between the view of every actor of the channel.",
+    "inputsTitle": "Contract inputs",
+    "currencyLabel": "Currency",
+    "valueLabel": "Monthly contract value",
+    "devShareLabel": "Developer share",
+    "devShareHint": "Fixed by the model, non-negotiable",
+    "sdmShareLabel": "SDM share",
+    "sdmShareHint": "Tied to project complexity, 8 to 12%",
+    "agentShareLabel": "Agent share",
+    "agentShareHint": "Base + commission + retention, 3 to 7%",
+    "splitTitle": "Where the contract goes",
+    "splitNote": "The developer share is sacred. Variable shares adjust the remainder, which is reinvested in the network and operations.",
+    "viewTitle": "Your view",
+    "viewSelectLabel": "View as",
+    "views": ["Company", "Developer", "SDM", "Agent", "State"],
+    "viewCopy": {
+      "company": {
+        "title": "Company view",
+        "text": "You pay the contract value and receive a delivery system: vetted developer, SDM, quality gates and the 72-hour replacement standard. Every FCFA of your budget is accounted for publicly."
+      },
+      "developer": {
+        "title": "Developer view",
+        "text": "40% of every contract goes directly to you. This share is published and non-negotiable, so your income scales with the value you deliver, not with negotiation skill."
+      },
+      "sdm": {
+        "title": "SDM view",
+        "text": "Your share is tied to complexity: 8% on light loads, up to 12% on heavy ones. You earn more only when you take on more and deliver."
+      },
+      "agent": {
+        "title": "Agent view",
+        "text": "Base share plus commission and a retention bonus. Acquisition and retention are rewarded, churn is not."
+      },
+      "state": {
+        "title": "State view",
+        "text": "The contract value stays in the regional economy: developer income, local partnerships, certification programs and reinvested reserves."
+      }
     },
-    "packages": {
-      "label": "Team packages",
-      "title": "Clear team packages",
-      "subtitle": "Billed in EUR, per developer on a part-time basis (80h/month). Extendable to full-time.",
-      "period": "per part-time (80h)",
-      "items": [
-        {
-          "name": "Starter",
-          "badge": "",
-          "price": "€1,500",
-          "description": "1 dedicated developer (Junior or Middle) + SDM. Perfect for startups and MVPs.",
-          "features": [
-            "Dedicated Junior or Middle developer",
-            "Success Delivery Manager included",
-            "Weekly progress reports",
-            "72-hour replacement guarantee",
-            "Agile sprints (2-week cycles)",
-            "Discord + GitHub + Google Meet access",
-            "Same timezone (CET/WAT)"
-          ],
-          "cta": "Get started"
-        },
-        {
-          "name": "Populaire",
-          "badge": "Popular",
-          "price": "€3,000",
-          "description": "1 Middle + 2 Juniors + a dedicated SDM. Best value for growing product teams.",
-          "features": [
-            "1 Middle + 2 Junior developers",
-            "Dedicated Success Delivery Manager",
-            "25% discount vs individual rates",
-            "Bi-weekly stakeholder demos",
-            "Sprint retrospectives & optimization",
-            "All Starter features included",
-            "Priority issue escalation"
-          ],
-          "cta": "Book a call"
-        },
-        {
-          "name": "Premium",
-          "badge": "",
-          "price": "€4,500",
-          "description": "Custom senior/niche teams + CEO oversight. For complex enterprise projects.",
-          "features": [
-            "Custom senior & niche team composition",
-            "CEO monthly strategic reviews",
-            "Architecture consulting & advisory",
-            "Priority support (4h response SLA)",
-            "Custom CI/CD & infrastructure setup",
-            "All Populaire features included",
-            "Dedicated project environments"
-          ],
-          "cta": "Get started"
-        }
-      ]
-    },
-    "custom": {
-      "title": "Have a specific budget?",
-      "subtitle": "Share your project and constraints. We design the right team for you — no commitment required.",
-      "steps": [
-        "You describe your project and share your maximum budget.",
-        "Our team analyses the scope and designs the right team composition.",
-        "We send you a tailored proposal within 48 hours — no obligation."
-      ],
-      "note": "We maintain a minimum 8% margin on all custom projects. If your budget doesn't fit, we'll tell you honestly.",
-      "cta": "Submit your project & budget"
+    "disclaimer": "This simulator implements the published framework. Each market zone maintains its own price standards, so absolute values are estimates, not offers."
+  },
+  "useCasesPage": {
+    "title": "Use cases",
+    "subtitle": "The model is a framework, so its value shows up differently for every actor. These are the areas where it creates measurable outcomes.",
+    "areas": [
+      {
+        "title": "For the continent",
+        "text": "Building engineering capacity that competes on quality, not on underpayment.",
+        "points": [
+          "Retains talent instead of exporting it",
+          "Creates foreign revenue from locally produced work",
+          "Establishes regional standards for fair revenue sharing",
+          "Reinvests in local ecosystems and training"
+        ]
+      },
+      {
+        "title": "For companies",
+        "text": "A predictable engineering team with published economics and an accountable SDM.",
+        "points": [
+          "One SDM owns delivery quality, capped at five projects",
+          "No hidden margin: the revenue split is public",
+          "72-hour replacement standard on every contract",
+          "Part-time to full-time without changing team or tools"
+        ]
+      },
+      {
+        "title": "For talent",
+        "text": "A career path that pays developers what the contract is worth.",
+        "points": [
+          "40% of every contract, published and non-negotiable",
+          "Steady work through a managed pipeline",
+          "Junior to Senior progression with certification",
+          "Work that proves African developers compete globally"
+        ]
+      },
+      {
+        "title": "For states & institutions",
+        "text": "A playbook to structure a national tech ecosystem end to end.",
+        "points": [
+          "Certification programs for local engineers",
+          "University and incubator partnerships",
+          "Contract frameworks aligned with local law",
+          "Local value retention instead of brain drain"
+        ]
+      },
+      {
+        "title": "For universities & incubators",
+        "text": "A bridge from education to paid, real-world work.",
+        "points": [
+          "Vetted apprenticeship tracks with real clients",
+          "Paid trial projects that test real skills",
+          "A certification standard to train against",
+          "Employment pipeline that keeps graduates local"
+        ]
+      },
+      {
+        "title": "For agencies & freelancers",
+        "text": "Adopt the framework as your own operating standard.",
+        "points": [
+          "Publish your economics to win trust",
+          "Access a vetted network instead of re-vetting",
+          "Bench strength through the collective",
+          "Differentiate on transparency, not on price"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "See your own case in numbers",
+      "text": "Open the simulator and estimate what the model means for your contract, your team or your region.",
+      "primary": "Open the simulator",
+      "secondary": "Join the collective"
     }
   },
   "joinPage": {
-    "title": "Join the MRVIN100 model",
-    "subtitle": "The model is open to companies and to countries that want engineering infrastructure aligned with their realities.",
+    "title": "Join the collective",
+    "subtitle": "The model is open to companies, developers, states and institutions that want to build under the same published standards.",
     "companies": {
       "title": "For companies",
-      "description": "Access a vetted engineering network, managed by an SDM, with fully transparent pricing.",
+      "description": "Adopt the framework for your engineering: vetted talent, an accountable SDM and published economics.",
       "points": [
-        "Transparent pricing, no hidden fees",
-        "A dedicated Success Delivery Manager",
-        "72-hour replacement guarantee",
-        "Same timezone (CET/WAT)"
+        "A recurring engineering need",
+        "Minimum budget of 1M FCFA per month (or EUR equivalent)",
+        "An identified decision-maker",
+        "Commitment to the published standards"
       ]
     },
     "countries": {
       "title": "For countries & institutions",
-      "description": "Adopt the model at national scale: we build certified local networks and institutional partnerships.",
+      "description": "Adopt the model at national scale to structure your tech ecosystem around one certified standard.",
       "points": [
-        "Structuring the local tech ecosystem",
-        "Certification and development of engineers",
-        "Partnerships with universities and incubators",
-        "Contract frameworks aligned with your jurisdictions"
+        "National certification of engineers",
+        "University and incubator partnerships",
+        "Contract frameworks aligned with local law",
+        "Market-zone standards, maintained locally"
       ]
     },
     "criteria": {
       "title": "Membership criteria",
-      "subtitle": "We keep the network small and serious. Organizations qualify when they meet:",
+      "subtitle": "The collective stays small and serious. Everyone joins under the same rules:",
       "items": [
-        "A recurring engineering need (not a one-off project)",
+        "A recurring engineering need, not a one-off project",
         "A minimum monthly budget of 1M FCFA (or EUR equivalent)",
         "An identified decision-maker",
         "A commitment to quality and continuous feedback"
@@ -220,45 +261,59 @@
     },
     "cta": {
       "title": "Let's build together",
-      "text": "Write to us to join the MRVIN100 network — company, incubator or institution.",
+      "text": "Write to us to join the collective: company, developer, incubator or institution.",
       "primary": "Email us",
       "secondary": "Read the documentation"
+    },
+    "contact": {
+      "title": "Start the conversation",
+      "text": "Tell us about your context and needs. A real person from the collective answers within 72 hours.",
+      "placeholder": "you@company.com",
+      "button": "Email us",
+      "subject": "Joining the MRVIN100 model"
     }
   },
   "faqPage": {
     "title": "Frequently asked questions",
-    "subtitle": "Everything you need to know before getting started.",
+    "subtitle": "Everything you need to know before adopting the model.",
+    "contact": {
+      "title": "Still have a question?",
+      "text": "Write to us directly and a member of the collective will answer you.",
+      "placeholder": "you@company.com",
+      "button": "Ask a question",
+      "subject": "Question about the MRVIN100 model"
+    },
     "items": [
       {
-        "q": "Are the rates in EUR or FCFA?",
-        "a": "Both. Our reference rates are in FCFA — 15,000 (Junior), 25,000 (Middle) and 40,000 (Senior) FCFA per hour. International clients are billed monthly packages in EUR: €1,500 (Starter), €3,000 (Populaire) and €4,500 (Premium) per part-time developer (80h/month). The rate you sign is the rate you pay — no hidden fees."
+        "q": "Is MRVIN100 a company or a model?",
+        "a": "It is a published model: a framework of standards that companies, developers, states and institutions can adopt. The framework is open and documented here in full, and the standards are maintained publicly per market zone."
       },
       {
-        "q": "What's included in the Success Delivery Manager (SDM)?",
-        "a": "Your SDM is your single point of contact. They handle daily coordination with your developers, sprint planning, weekly progress reports, escalation of blockers and quality gates. An SDM manages at most 5 projects at a time — service quality is capped by design."
+        "q": "Why 40% of every contract for the developer?",
+        "a": "Because the developer is the person who builds. The 40% share is the ethical core of the model, published and non-negotiable. It attracts and retains the talent that makes the whole channel reliable."
       },
       {
-        "q": "How does the 72-hour replacement guarantee work?",
-        "a": "If your assigned developer underperforms, leaves or becomes unavailable, we present a replacement profile within 72 hours. The replacement benefits from a paid knowledge-transfer overlap so your project never stalls. No negotiation, no extra invoice."
+        "q": "Are prices standardized?",
+        "a": "The model standardizes the framework, not a single price list. Percentages such as the 40% developer share and the 8 to 12% SDM range are fixed. Absolute prices are maintained per market zone: what is standard in Central Africa can differ from West Africa or Europe."
       },
       {
-        "q": "What tech stacks do your developers cover?",
-        "a": "Our network covers React/Next.js, Node.js, Python, PostgreSQL, DevOps (Docker, AWS, CI/CD) and mobile development. Niche stacks are assessed during qualification — and we tell you honestly if we cannot staff them."
+        "q": "What is the Success Delivery Manager (SDM)?",
+        "a": "Your single point of contact, responsible for coordination, sprint planning, weekly reports, escalation and quality gates. An SDM manages at most five projects at a time, so service quality is capped by design."
       },
       {
-        "q": "Is there a minimum contract duration?",
-        "a": "No fixed minimum. Part-time contracts run month to month; most clients start with a 3-month engagement, which matches our sprint cadence. Full-time contracts include an exclusivity clause that protects delivery quality."
+        "q": "How does the 72-hour replacement standard work?",
+        "a": "If a developer underperforms or becomes unavailable, a replacement profile is presented within 72 hours, with a paid knowledge-transfer overlap so the project never stalls. No negotiation, no extra invoice."
       },
       {
         "q": "Can I start part-time and scale to full-time?",
-        "a": "Yes — that is the standard path. Start part-time (80h/month) to validate the collaboration, then scale to full-time as your needs grow. Your developer, your SDM and your tooling stay identical."
+        "a": "Yes. That is the standard path: start part-time (80h/month per developer) to validate the collaboration, then scale to full-time. Your developer, your SDM and your tooling stay identical."
       }
     ]
   },
   "docs": {
     "label": "Documentation",
     "title": "The MRVIN100 Model",
-    "subtitle": "How we build engineering infrastructure aligned with African excellence — principles, pricing, governance and membership.",
+    "subtitle": "The full framework: principles, economics, governance, market-zone standards and membership. Everything is published so anyone can verify it.",
     "sidebarTitle": "The Model",
     "browseAll": "Browse all chapters",
     "prev": "Previous",
@@ -266,11 +321,11 @@
     "backToModel": "Back to the model overview"
   },
   "footer": {
-    "tagline": "Mrvin100.de — Engineering infrastructure for African enterprises. World-class engineering talent and operational systems, built for the continent.",
+    "tagline": "The MRVIN100 Model. An open framework for African engineering: published economics, fair developer share, accountable delivery and market-zone standards.",
     "locations": "Berlin · Yaoundé · Conakry",
     "email": "mrvin100mail@gmail.com",
     "phones": "+237 658 778 110 (CM) · +224 614 179 276 (GN)",
-    "navTitle": "Navigation",
+    "navTitle": "The model",
     "contactTitle": "Contact",
     "rights": "© 2026 MRVIN100. All rights reserved."
   },

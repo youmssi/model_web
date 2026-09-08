@@ -1,5 +1,6 @@
 import Link from "next/link"
 
+import Noise from "@/components/Noise"
 import { GradientText } from "@/components/GradientText"
 import { Button } from "@/components/ui/button"
 import { localePath, type Locale } from "@/lib/i18n/config"
@@ -19,11 +20,14 @@ interface HeroProps {
 export function Hero({ locale, hero }: HeroProps) {
   return (
     <section className="relative overflow-hidden">
-      {/* Ambient glow — pure CSS, no runtime cost */}
+      {/* Ambient glow, pure CSS, no runtime cost */}
       <div
         aria-hidden="true"
         className="pointer-events-none absolute inset-x-0 -top-40 mx-auto h-80 max-w-3xl rounded-full bg-primary/15 blur-3xl"
       />
+
+      {/* Film-grain texture */}
+      <Noise patternAlpha={7} patternRefreshInterval={3} />
 
       <div className="relative mx-auto flex w-full max-w-6xl flex-col items-center px-4 pb-20 pt-20 text-center sm:pt-28">
         <span className="animate-rise-in inline-flex items-center gap-2 rounded-full border bg-card px-4 py-1.5 text-xs font-medium text-muted-foreground">

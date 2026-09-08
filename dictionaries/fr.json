@@ -1,16 +1,17 @@
 {
   "meta": {
     "siteName": "MRVIN100",
-    "title": "MRVIN100 — L'excellence technique, construite pour l'Afrique",
-    "description": "Le modèle MRVIN100 : équipes d'ingénierie dédiées issues d'un réseau africain certifié, pilotées par un Success Delivery Manager, avec des tarifs transparents et une garantie de remplacement sous 72 heures."
+    "title": "Le Modèle MRVIN100, un collectif ouvert pour l'ingénierie africaine",
+    "description": "Un modèle ouvert pour l'ingénierie en Afrique : une économie publiée, 40 % de chaque contrat au développeur, une norme de remplacement sous 72 heures, et des standards par zone de marché adoptables par les entreprises, les talents, les États et les institutions."
   },
   "nav": {
     "home": "Accueil",
     "model": "Le Modèle",
-    "pricing": "Tarifs",
+    "simulator": "Simulateur",
+    "useCases": "Cas d'usage",
     "faq": "FAQ",
     "join": "Rejoindre",
-    "bookCall": "Réserver un appel",
+    "bookCall": "Rejoindre le modèle",
     "openMenu": "Ouvrir le menu",
     "closeMenu": "Fermer le menu",
     "language": "Changer de langue",
@@ -18,259 +19,313 @@
   },
   "home": {
     "hero": {
-      "badge": "Le modèle MRVIN100",
-      "titleLine1": "Des talents d'ingénierie de classe mondiale,",
-      "titleAccent": "construits pour l'Afrique",
-      "subtitle": "Des équipes d'ingénierie dédiées qui comprennent votre marché, vos opérations et votre fuseau horaire. Une livraison de classe internationale, sans les compromis de l'offshore.",
-      "primaryCta": "Rejoindre le modèle",
-      "secondaryCta": "Lire la documentation"
+      "badge": "Un collectif ouvert pour l'ingénierie africaine",
+      "titleLine1": "Un modèle, adopté à travers",
+      "titleAccent": "le continent",
+      "subtitle": "MRVIN100 est un cadre publié, pas une entreprise fermée : une économie transparente, 40 % de chaque contrat au développeur, une norme de remplacement sous 72 heures, et des standards par zone de marché que chacun peut adopter.",
+      "primaryCta": "Rejoindre le collectif",
+      "secondaryCta": "Lire le modèle"
     },
-    "trusted": {
-      "label": "Ils nous font confiance",
-      "subtext": "Les ingénieurs de notre réseau ont livré pour des institutions de premier plan au Cameroun et au-delà.",
-      "ariaLabel": "Organisations qui ont fait confiance aux talents MRVIN100"
+    "adopters": {
+      "label": "Construit avec et adopté par",
+      "subtext": "Des entreprises, institutions et développeurs qui travaillent sous le modèle et en façonnent les standards.",
+      "ariaLabel": "Organisations et développeurs qui ont adopté le modèle MRVIN100",
+      "orgsLabel": "Des organisations qui ont fait confiance aux talents du modèle",
+      "devsLabel": "Des développeurs qui travaillent sous le modèle",
+      "devShareNote": "40 % de chaque contrat va au développeur"
     },
     "how": {
-      "label": "Comment ça marche",
-      "title": "Du brief à la livraison en 4 étapes",
-      "subtitle": "Un processus structuré pour les équipes enterprise, qui élimine la friction et garantit les délais.",
+      "label": "Comment fonctionne le modèle",
+      "title": "Un cadre que chacun peut adopter",
+      "subtitle": "Le modèle n'est pas un catalogue de services. C'est un standard de pratique, publié en entier et maintenu par zone de marché.",
       "steps": [
         {
-          "title": "Décrivez vos besoins",
-          "text": "Partagez votre projet, votre stack et votre calendrier. Nous qualifions votre demande sous 72 heures."
+          "title": "Lisez le cadre publié",
+          "text": "La répartition des revenus, le rôle du SDM et la norme 72 heures sont publics. Pas de boîte noire, pas de marge cachée."
         },
         {
-          "title": "Nous composons votre équipe",
-          "text": "Nous sélectionnons les bons profils dans notre réseau camerounais certifié."
+          "title": "Simulez votre cas",
+          "text": "Le simulateur estime en temps réel ce que chaque acteur gagne sur un contrat. Pensé pour les décideurs."
         },
         {
-          "title": "Votre SDM prend le relais",
-          "text": "Votre Success Delivery Manager gère la coordination quotidienne, les sprints et les rapports d'avancement."
+          "title": "Adoptez les standards",
+          "text": "Entreprises, talents, États et institutions rejoignent le collectif sous les mêmes règles publiées."
         },
         {
-          "title": "Livrez en confiance",
-          "text": "Rapports hebdomadaires, démos bimensuelles et garantie de remplacement sous 72 heures sur chaque contrat."
+          "title": "Les standards sont maintenus",
+          "text": "Chaque zone de marché maintient ses propres paramètres, mis à jour de façon transparente."
         }
       ]
     },
     "pillars": {
-      "label": "Pourquoi MRVIN100",
-      "title": "Une infrastructure, pas de l'externalisation",
-      "subtitle": "Trois engagements font fonctionner le modèle — pour les clients comme pour les développeurs.",
+      "label": "Les trois engagements",
+      "title": "Ce que le modèle garantit",
+      "subtitle": "Trois engagements valent pour chaque acteur du canal, de l'entreprise au développeur.",
       "items": [
         {
-          "title": "Même fuseau horaire",
-          "text": "L'alignement CET/WAT permet une collaboration en temps réel avec votre équipe. Zéro décalage, zéro relais nocturne, zéro friction."
-        },
-        {
           "title": "Transparence radicale",
-          "text": "40 % de chaque contrat revient directement au développeur — publié publiquement et non négociable."
+          "text": "40 % de chaque contrat vont directement au développeur, publiés publiquement et non négociables."
         },
         {
-          "title": "Garantie 72 heures",
-          "text": "Un remplacement est garanti sous 72 heures sur chaque contrat. Sans exception, sans facture supplémentaire."
+          "title": "Livraison responsable",
+          "text": "Un Success Delivery Manager pilote la coordination et la qualité sur chaque projet, plafonné à cinq projets."
+        },
+        {
+          "title": "La norme 72 heures",
+          "text": "Un remplacement sous 72 heures sur chaque contrat, avec transfert de connaissances rémunéré et sans facture supplémentaire."
         }
       ]
     },
     "stats": {
       "label": "Les chiffres",
       "items": [
-        { "value": 40, "prefix": "", "suffix": "%", "label": "de chaque contrat revient au développeur" },
-        { "value": 72, "prefix": "", "suffix": "h", "label": "de garantie de remplacement sur chaque contrat" },
-        { "value": 30, "prefix": "", "suffix": "%+", "label": "d'économies par rapport à l'offshore" },
-        { "value": 97, "prefix": "", "suffix": "%", "label": "de livraisons dans les délais" }
+        { "value": 40, "prefix": "", "suffix": "%", "label": "de chaque contrat va au développeur" },
+        { "value": 72, "prefix": "", "suffix": "h", "label": "norme de remplacement sur chaque contrat" },
+        { "value": 97, "prefix": "", "suffix": "%", "label": "de livraison à temps" },
+        { "value": 8, "prefix": "", "suffix": "-12%", "label": "part du SDM, liée à la complexité" }
       ]
     },
-    "pricingPreview": {
-      "label": "Forfaits & tarifs",
-      "title": "Des tarifs simples et transparents",
-      "subtitle": "Développeur dédié + Success Delivery Manager + garantie de remplacement sous 72 h. Aucun frais caché.",
-      "cta": "Voir tous les tarifs"
+    "simulatorPreview": {
+      "label": "Simulateur",
+      "title": "Voyez le modèle en chiffres",
+      "subtitle": "Saisissez une valeur de contrat et regardez la répartition publiée allouer la valeur à chaque acteur, en temps réel.",
+      "cta": "Ouvrir le simulateur"
+    },
+    "useCasesPreview": {
+      "label": "Cas d'usage",
+      "title": "Où le modèle crée de la valeur",
+      "subtitle": "D'une entreprise à toute une région : le modèle bénéficie aux entreprises, aux talents, aux États, aux universités et aux agences.",
+      "cta": "Explorer les cas d'usage"
     },
     "cta": {
-      "title": "Prêt à construire avec l'excellence africaine ?",
-      "text": "Réservez un appel découverte gratuit de 30 minutes. Sans engagement, sans pression — juste une conversation sur vos besoins en ingénierie.",
-      "primary": "Réserver un appel gratuit",
-      "secondary": "Explorer le modèle"
+      "title": "Adoptez le modèle. Construisez le collectif.",
+      "text": "Rejoignez en tant qu'entreprise, développeur, pays ou institution. Commencez par le cadre publié et le simulateur.",
+      "primary": "Rejoindre le collectif",
+      "secondary": "Lire la documentation"
     }
   },
-  "pricingPage": {
-    "title": "Forfaits & tarifs",
-    "subtitle": "Développeur dédié + Success Delivery Manager + garantie de remplacement sous 72 h. Aucun frais caché.",
-    "rates": {
-      "label": "Tarifs de référence",
-      "title": "Taux horaires en FCFA",
-      "subtitle": "Taux horaires de référence, utilisés pour les devis sur mesure et les projets en FCFA.",
-      "columns": ["Niveau", "Taux horaire", "Profil type"],
-      "rows": [
-        ["Junior", "15 000 FCFA / h", "Startups, MVP, maintenance"],
-        ["Middle", "25 000 FCFA / h", "Développement produit, feature teams"],
-        ["Senior", "40 000 FCFA / h", "Systèmes enterprise, intégrations complexes"]
-      ]
+  "simulatorPage": {
+    "title": "Simulateur",
+    "subtitle": "Estimez en temps réel ce que chaque acteur du modèle gagne sur un contrat. Ajustez les entrées, observez la répartition se mettre à jour, et changez de point de vue pour chaque acteur du canal.",
+    "inputsTitle": "Entrées du contrat",
+    "currencyLabel": "Devise",
+    "valueLabel": "Valeur mensuelle du contrat",
+    "devShareLabel": "Part du développeur",
+    "devShareHint": "Fixée par le modèle, non négociable",
+    "sdmShareLabel": "Part du SDM",
+    "sdmShareHint": "Liée à la complexité du projet, 8 à 12 %",
+    "agentShareLabel": "Part de l'agent",
+    "agentShareHint": "Base + commission + rétention, 3 à 7 %",
+    "splitTitle": "Où va le contrat",
+    "splitNote": "La part du développeur est sacrée. Les parts variables ajustent le reste, réinvesti dans le réseau et les opérations.",
+    "viewTitle": "Votre point de vue",
+    "viewSelectLabel": "Voir comme",
+    "views": ["Entreprise", "Développeur", "SDM", "Agent", "État"],
+    "viewCopy": {
+      "company": {
+        "title": "Vue entreprise",
+        "text": "Vous payez la valeur du contrat et recevez un système de livraison : développeur vérifié, SDM, jalons qualité et norme de remplacement sous 72 heures. Chaque FCFA de votre budget est comptabilisé publiquement."
+      },
+      "developer": {
+        "title": "Vue développeur",
+        "text": "40 % de chaque contrat vous reviennent directement. Cette part est publiée et non négociable : votre revenu suit la valeur que vous livrez, pas votre talent de négociation."
+      },
+      "sdm": {
+        "title": "Vue SDM",
+        "text": "Votre part est liée à la complexité : 8 % sur les charges légères, jusqu'à 12 % sur les charges lourdes. Vous gagnez plus seulement quand vous prenez plus et livrez."
+      },
+      "agent": {
+        "title": "Vue agent",
+        "text": "Part de base plus commission et bonus de rétention. L'acquisition et la rétention sont récompensées, le churn ne l'est pas."
+      },
+      "state": {
+        "title": "Vue État",
+        "text": "La valeur du contrat reste dans l'économie régionale : revenus des développeurs, partenariats locaux, programmes de certification et réserves réinvesties."
+      }
     },
-    "packages": {
-      "label": "Forfaits d'équipe",
-      "title": "Des forfaits d'équipe clairs",
-      "subtitle": "Facturation en EUR, par développeur à temps partiel (80 h/mois). Extensible à temps plein.",
-      "period": "par temps partiel (80 h)",
-      "items": [
-        {
-          "name": "Starter",
-          "badge": "",
-          "price": "1 500 €",
-          "description": "1 développeur dédié (Junior ou Middle) + SDM. Idéal pour les startups et les MVP.",
-          "features": [
-            "Développeur Junior ou Middle dédié",
-            "Success Delivery Manager inclus",
-            "Rapports d'avancement hebdomadaires",
-            "Garantie de remplacement sous 72 h",
-            "Sprints agiles (cycles de 2 semaines)",
-            "Accès Discord + GitHub + Google Meet",
-            "Même fuseau horaire (CET/WAT)"
-          ],
-          "cta": "Commencer"
-        },
-        {
-          "name": "Populaire",
-          "badge": "Populaire",
-          "price": "3 000 €",
-          "description": "1 Middle + 2 Juniors + un SDM dédié. Le meilleur rapport valeur/prix pour les équipes produit.",
-          "features": [
-            "1 développeur Middle + 2 Juniors",
-            "Success Delivery Manager dédié",
-            "25 % de remise vs tarifs individuels",
-            "Démos bimensuelles aux parties prenantes",
-            "Rétrospectives de sprint & optimisation",
-            "Toutes les fonctionnalités Starter incluses",
-            "Escalade prioritaire des incidents"
-          ],
-          "cta": "Réserver un appel"
-        },
-        {
-          "name": "Premium",
-          "badge": "",
-          "price": "4 500 €",
-          "description": "Équipes seniors/niches sur mesure + supervision du CEO. Pour les projets enterprise complexes.",
-          "features": [
-            "Composition d'équipe senior & niche sur mesure",
-            "Revue stratégique mensuelle par le CEO",
-            "Conseil en architecture & advisory",
-            "Support prioritaire (SLA de réponse 4 h)",
-            "CI/CD & infrastructure personnalisés",
-            "Toutes les fonctionnalités Populaire incluses",
-            "Environnements de projet dédiés"
-          ],
-          "cta": "Commencer"
-        }
-      ]
-    },
-    "custom": {
-      "title": "Vous avez un budget spécifique ?",
-      "subtitle": "Partagez votre projet et vos contraintes. Nous concevons l'équipe qu'il vous faut — sans engagement.",
-      "steps": [
-        "Vous décrivez votre projet et partagez votre budget maximum.",
-        "Notre équipe analyse le périmètre et conçoit la bonne composition d'équipe.",
-        "Nous vous envoyons une proposition sur mesure sous 48 h — sans obligation."
-      ],
-      "note": "Nous maintenons une marge minimale de 8 % sur tous les projets sur mesure. Si votre budget ne correspond pas, nous vous le dirons honnêtement.",
-      "cta": "Soumettre mon projet & mon budget"
+    "disclaimer": "Ce simulateur applique le cadre publié. Chaque zone de marché maintient ses propres standards de prix : les valeurs absolues sont des estimations, pas des offres."
+  },
+  "useCasesPage": {
+    "title": "Cas d'usage",
+    "subtitle": "Le modèle est un cadre, sa valeur se manifeste donc différemment pour chaque acteur. Voici les domaines où il produit des résultats mesurables.",
+    "areas": [
+      {
+        "title": "Pour le continent",
+        "text": "Construire une capacité d'ingénierie qui rivalise sur la qualité, pas sur la sous-rémunération.",
+        "points": [
+          "Retenir les talents au lieu de les exporter",
+          "Créer des revenus étrangers à partir d'un travail produit localement",
+          "Établir des standards régionaux de partage équitable des revenus",
+          "Réinvestir dans les écosystèmes et la formation locaux"
+        ]
+      },
+      {
+        "title": "Pour les entreprises",
+        "text": "Une équipe d'ingénierie prévisible, avec une économie publiée et un SDM responsable.",
+        "points": [
+          "Un SDM pilote la qualité de livraison, plafonné à cinq projets",
+          "Aucune marge cachée : la répartition des revenus est publique",
+          "Norme de remplacement sous 72 heures sur chaque contrat",
+          "Du temps partiel au temps plein sans changer d'équipe ni d'outils"
+        ]
+      },
+      {
+        "title": "Pour les talents",
+        "text": "Un parcours qui paie les développeurs à la hauteur de la valeur du contrat.",
+        "points": [
+          "40 % de chaque contrat, publiés et non négociables",
+          "Du travail régulier via un pipeline géré",
+          "Progression Junior vers Senior avec certification",
+          "Un travail qui prouve que les développeurs africains rivalisent à l'international"
+        ]
+      },
+      {
+        "title": "Pour les États & institutions",
+        "text": "Un playbook pour structurer un écosystème tech national de bout en bout.",
+        "points": [
+          "Programmes de certification des ingénieurs locaux",
+          "Partenariats universités et incubateurs",
+          "Cadres contractuels alignés sur le droit local",
+          "Rétention de la valeur locale au lieu de la fuite des cerveaux"
+        ]
+      },
+      {
+        "title": "Pour les universités & incubateurs",
+        "text": "Un pont de l'éducation vers un travail rémunéré et réel.",
+        "points": [
+          "Filières d'apprentissage vérifiées avec de vrais clients",
+          "Projets d'essai rémunérés qui testent de vraies compétences",
+          "Un standard de certification sur lequel former",
+          "Un pipeline d'emploi qui garde les diplômés sur place"
+        ]
+      },
+      {
+        "title": "Pour les agences & freelances",
+        "text": "Adoptez le cadre comme votre propre standard de fonctionnement.",
+        "points": [
+          "Publiez votre économie pour gagner la confiance",
+          "Accédez à un réseau vérifié sans re-vérifier",
+          "De la capacité grâce au collectif",
+          "Différenciez-vous sur la transparence, pas sur le prix"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Voyez votre propre cas en chiffres",
+      "text": "Ouvrez le simulateur et estimez ce que le modèle représente pour votre contrat, votre équipe ou votre région.",
+      "primary": "Ouvrir le simulateur",
+      "secondary": "Rejoindre le collectif"
     }
   },
   "joinPage": {
-    "title": "Rejoindre le modèle MRVIN100",
-    "subtitle": "Le modèle est ouvert aux entreprises et aux pays qui veulent une infrastructure d'ingénierie alignée sur leurs réalités.",
+    "title": "Rejoindre le collectif",
+    "subtitle": "Le modèle est ouvert aux entreprises, développeurs, États et institutions qui veulent construire sous les mêmes standards publiés.",
     "companies": {
       "title": "Pour les entreprises",
-      "description": "Accédez à un réseau d'ingénieurs certifiés, piloté par un SDM, avec une tarification entièrement transparente.",
+      "description": "Adoptez le cadre pour votre ingénierie : talents vérifiés, SDM responsable et économie publiée.",
       "points": [
-        "Tarification transparente, aucun frais caché",
-        "Un Success Delivery Manager dédié",
-        "Garantie de remplacement sous 72 h",
-        "Même fuseau horaire (CET/WAT)"
+        "Un besoin d'ingénierie récurrent",
+        "Budget minimum de 1M FCFA par mois (ou équivalent EUR)",
+        "Un décideur identifié",
+        "Engagement envers les standards publiés"
       ]
     },
     "countries": {
       "title": "Pour les pays & institutions",
-      "description": "Adoptez le modèle à l'échelle nationale : nous structurons des réseaux locaux certifiés et des partenariats institutionnels.",
+      "description": "Adoptez le modèle à l'échelle nationale pour structurer votre écosystème tech autour d'un standard certifié.",
       "points": [
-        "Structuration de l'écosystème tech local",
-        "Certification et montée en compétences des ingénieurs",
-        "Partenariats avec universités et incubateurs",
-        "Cadres contractuels alignés sur vos juridictions"
+        "Certification nationale des ingénieurs",
+        "Partenariats universités et incubateurs",
+        "Cadres contractuels alignés sur le droit local",
+        "Standards par zone de marché, maintenus localement"
       ]
     },
     "criteria": {
       "title": "Critères d'adhésion",
-      "subtitle": "Nous gardons un réseau restreint et sérieux. Les organisations se qualifient lorsqu'elles réunissent :",
+      "subtitle": "Le collectif reste petit et sérieux. Tout le monde rejoint sous les mêmes règles :",
       "items": [
-        "Un besoin d'ingénierie récurrent (pas un projet ponctuel)",
-        "Un budget mensuel minimum de 1 M FCFA (ou équivalent EUR)",
-        "Un interlocuteur décisionnaire identifié",
-        "Un engagement sur la qualité et la rétroaction continue"
+        "Un besoin d'ingénierie récurrent, pas un projet ponctuel",
+        "Un budget mensuel minimum de 1M FCFA (ou équivalent EUR)",
+        "Un décideur identifié",
+        "Un engagement pour la qualité et le feedback continu"
       ]
     },
     "process": {
-      "title": "Comment nous rejoindre",
+      "title": "Comment rejoindre",
       "steps": [
-        "Soumettez votre organisation par e-mail avec votre contexte et vos besoins.",
-        "Un appel découverte de 30 minutes avec notre équipe.",
+        "Soumettez votre organisation par email avec votre contexte et vos besoins.",
+        "Un appel de découverte de 30 minutes avec notre équipe.",
         "Alignement sur le périmètre, la composition d'équipe et les tarifs.",
-        "Démarrage sous 72 h après signature."
+        "Démarrage sous 72 heures après signature."
       ]
     },
     "cta": {
       "title": "Construisons ensemble",
-      "text": "Écrivez-nous pour rejoindre le réseau MRVIN100 — entreprise, incubateur ou institution.",
+      "text": "Écrivez-nous pour rejoindre le collectif : entreprise, développeur, incubateur ou institution.",
       "primary": "Nous écrire",
       "secondary": "Lire la documentation"
+    },
+    "contact": {
+      "title": "Démarrez la conversation",
+      "text": "Décrivez-nous votre contexte et vos besoins. Une vraie personne du collectif vous répond sous 72 heures.",
+      "placeholder": "vous@entreprise.com",
+      "button": "Nous écrire",
+      "subject": "Rejoindre le modèle MRVIN100"
     }
   },
   "faqPage": {
     "title": "Questions fréquentes",
-    "subtitle": "Tout ce qu'il faut savoir avant de démarrer.",
+    "subtitle": "Tout ce qu'il faut savoir avant d'adopter le modèle.",
+    "contact": {
+      "title": "Une question demeure ?",
+      "text": "Écrivez-nous directement, un membre du collectif vous répondra.",
+      "placeholder": "vous@entreprise.com",
+      "button": "Poser une question",
+      "subject": "Question sur le modèle MRVIN100"
+    },
     "items": [
       {
-        "q": "Les tarifs sont-ils en EUR ou en FCFA ?",
-        "a": "Les deux. Nos taux de référence sont en FCFA — 15 000 (Junior), 25 000 (Middle) et 40 000 (Senior) FCFA par heure. Les clients internationaux sont facturés en forfaits mensuels en EUR : 1 500 € (Starter), 3 000 € (Populaire) et 4 500 € (Premium) par développeur à temps partiel (80 h/mois). Le tarif signé est le tarif payé — aucun frais caché."
+        "q": "MRVIN100 est-il une entreprise ou un modèle ?",
+        "a": "C'est un modèle publié : un cadre de standards que les entreprises, développeurs, États et institutions peuvent adopter. Le cadre est ouvert et documenté ici en entier, et les standards sont maintenus publiquement par zone de marché."
       },
       {
-        "q": "Que comprend le Success Delivery Manager (SDM) ?",
-        "a": "Votre SDM est votre interlocuteur unique. Il gère la coordination quotidienne avec vos développeurs, la planification des sprints, les rapports hebdomadaires, l'escalade des blocages et les critères de qualité. Un SDM gère au maximum 5 projets simultanément — la qualité de service est plafonnée par conception."
+        "q": "Pourquoi 40 % de chaque contrat pour le développeur ?",
+        "a": "Parce que le développeur est celui qui construit. La part de 40 % est le cœur éthique du modèle, publiée et non négociable. Elle attire et retient les talents qui rendent tout le canal fiable."
       },
       {
-        "q": "Comment fonctionne la garantie de remplacement sous 72 h ?",
-        "a": "Si votre développeur sous-performe, part ou devient indisponible, nous vous présentons un profil de remplacement sous 72 heures. Le remplaçant bénéficie d'une passation de connaissances rémunérée pour que votre projet ne s'arrête jamais. Sans négociation, sans facture supplémentaire."
+        "q": "Les prix sont-ils standardisés ?",
+        "a": "Le modèle standardise le cadre, pas une liste de prix unique. Les pourcentages comme les 40 % du développeur et la fourchette de 8 à 12 % du SDM sont fixes. Les prix absolus sont maintenus par zone de marché : ce qui est standard en Afrique centrale peut différer de l'Afrique de l'Ouest ou de l'Europe."
       },
       {
-        "q": "Quelles technologies couvrent vos développeurs ?",
-        "a": "Notre réseau couvre React/Next.js, Node.js, Python, PostgreSQL, le DevOps (Docker, AWS, CI/CD) et le mobile. Les stacks de niche sont évaluées lors de la qualification — et nous vous disons honnêtement si nous ne pouvons pas les couvrir."
+        "q": "Qu'est-ce que le Success Delivery Manager (SDM) ?",
+        "a": "Votre interlocuteur unique, responsable de la coordination, de la planification des sprints, des rapports hebdomadaires, des escalades et des jalons qualité. Un SDM gère au maximum cinq projets à la fois, donc la qualité de service est plafonnée par conception."
       },
       {
-        "q": "Existe-t-il une durée de contrat minimale ?",
-        "a": "Aucun minimum fixe. Les contrats à temps partiel sont reconduits mois par mois ; la plupart des clients démarrent sur un engagement de 3 mois, ce qui correspond à notre cadence de sprints. Les contrats à temps plein incluent une clause d'exclusivité qui protège la qualité de livraison."
+        "q": "Comment fonctionne la norme de remplacement sous 72 heures ?",
+        "a": "Si un développeur sous-performe ou devient indisponible, un profil de remplacement est présenté sous 72 heures, avec une période de transfert de connaissances rémunérée pour que le projet ne s'arrête jamais. Sans négociation, sans facture supplémentaire."
       },
       {
         "q": "Puis-je commencer à temps partiel puis passer à temps plein ?",
-        "a": "Oui — c'est le parcours standard. Commencez à temps partiel (80 h/mois) pour valider la collaboration, puis passez à temps plein selon vos besoins. Votre développeur, votre SDM et vos outils restent identiques."
+        "a": "Oui. C'est le parcours standard : commencez à temps partiel (80h/mois par développeur) pour valider la collaboration, puis passez à temps plein. Votre développeur, votre SDM et vos outils restent identiques."
       }
     ]
   },
   "docs": {
     "label": "Documentation",
-    "title": "Le modèle MRVIN100",
-    "subtitle": "Comment nous construisons une infrastructure d'ingénierie alignée avec l'excellence africaine — principes, tarifs, gouvernance et adhésion.",
+    "title": "Le Modèle MRVIN100",
+    "subtitle": "Le cadre complet : principes, économie, gouvernance, standards par zone de marché et adhésion. Tout est publié pour que chacun puisse le vérifier.",
     "sidebarTitle": "Le Modèle",
-    "browseAll": "Parcourir tous les chapitres",
+    "browseAll": "Parcourir les chapitres",
     "prev": "Précédent",
     "next": "Suivant",
     "backToModel": "Retour à la vue d'ensemble du modèle"
   },
   "footer": {
-    "tagline": "Mrvin100.de — Infrastructure d'ingénierie pour les entreprises africaines. Talents d'ingénierie de classe mondiale et systèmes opérationnels, construits pour le continent.",
+    "tagline": "Le Modèle MRVIN100. Un cadre ouvert pour l'ingénierie africaine : économie publiée, part équitable au développeur, livraison responsable et standards par zone de marché.",
     "locations": "Berlin · Yaoundé · Conakry",
     "email": "mrvin100mail@gmail.com",
     "phones": "+237 658 778 110 (CM) · +224 614 179 276 (GN)",
-    "navTitle": "Navigation",
+    "navTitle": "Le modèle",
     "contactTitle": "Contact",
     "rights": "© 2026 MRVIN100. Tous droits réservés."
   },

@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og"
 
-export const alt = "MRVIN100 — World-class engineering, built for Africa"
+export const alt = "The MRVIN100 Model: an open collective for African engineering"
 export const size = { width: 1200, height: 630 }
 export const contentType = "image/png"
 
@@ -50,19 +50,21 @@ export default async function Image() {
               display: "flex",
             }}
           >
-            World-class engineering, built for Africa
+            An open model for African engineering
           </div>
           <div style={{ fontSize: 32, color: "#9fc3b4", display: "flex" }}>
-            Dedicated teams · Transparent pricing · 72h replacement guarantee
+            Published economics · 40% developer share · Market-zone standards
           </div>
         </div>
 
         <div style={{ display: "flex", gap: 16, fontSize: 26, color: "#d9a441" }}>
-          <div style={{ display: "flex" }}>Berlin</div>
+          <div style={{ display: "flex" }}>Adoptable by</div>
           <div style={{ display: "flex" }}>·</div>
-          <div style={{ display: "flex" }}>Yaoundé</div>
+          <div style={{ display: "flex" }}>Companies</div>
           <div style={{ display: "flex" }}>·</div>
-          <div style={{ display: "flex" }}>Conakry</div>
+          <div style={{ display: "flex" }}>Talent</div>
+          <div style={{ display: "flex" }}>·</div>
+          <div style={{ display: "flex" }}>States</div>
         </div>
       </div>
     ),
