@@ -1,0 +1,283 @@
+{
+  "meta": {
+    "siteName": "MRVIN100",
+    "title": "MRVIN100 — L'excellence technique, construite pour l'Afrique",
+    "description": "Le modèle MRVIN100 : équipes d'ingénierie dédiées issues d'un réseau africain certifié, pilotées par un Success Delivery Manager, avec des tarifs transparents et une garantie de remplacement sous 72 heures."
+  },
+  "nav": {
+    "home": "Accueil",
+    "model": "Le Modèle",
+    "pricing": "Tarifs",
+    "faq": "FAQ",
+    "join": "Rejoindre",
+    "bookCall": "Réserver un appel",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "language": "Changer de langue",
+    "theme": "Changer de thème"
+  },
+  "home": {
+    "hero": {
+      "badge": "Le modèle MRVIN100",
+      "titleLine1": "Des talents d'ingénierie de classe mondiale,",
+      "titleAccent": "construits pour l'Afrique",
+      "subtitle": "Des équipes d'ingénierie dédiées qui comprennent votre marché, vos opérations et votre fuseau horaire. Une livraison de classe internationale, sans les compromis de l'offshore.",
+      "primaryCta": "Rejoindre le modèle",
+      "secondaryCta": "Lire la documentation"
+    },
+    "trusted": {
+      "label": "Ils nous font confiance",
+      "subtext": "Les ingénieurs de notre réseau ont livré pour des institutions de premier plan au Cameroun et au-delà.",
+      "ariaLabel": "Organisations qui ont fait confiance aux talents MRVIN100"
+    },
+    "how": {
+      "label": "Comment ça marche",
+      "title": "Du brief à la livraison en 4 étapes",
+      "subtitle": "Un processus structuré pour les équipes enterprise, qui élimine la friction et garantit les délais.",
+      "steps": [
+        {
+          "title": "Décrivez vos besoins",
+          "text": "Partagez votre projet, votre stack et votre calendrier. Nous qualifions votre demande sous 72 heures."
+        },
+        {
+          "title": "Nous composons votre équipe",
+          "text": "Nous sélectionnons les bons profils dans notre réseau camerounais certifié."
+        },
+        {
+          "title": "Votre SDM prend le relais",
+          "text": "Votre Success Delivery Manager gère la coordination quotidienne, les sprints et les rapports d'avancement."
+        },
+        {
+          "title": "Livrez en confiance",
+          "text": "Rapports hebdomadaires, démos bimensuelles et garantie de remplacement sous 72 heures sur chaque contrat."
+        }
+      ]
+    },
+    "pillars": {
+      "label": "Pourquoi MRVIN100",
+      "title": "Une infrastructure, pas de l'externalisation",
+      "subtitle": "Trois engagements font fonctionner le modèle — pour les clients comme pour les développeurs.",
+      "items": [
+        {
+          "title": "Même fuseau horaire",
+          "text": "L'alignement CET/WAT permet une collaboration en temps réel avec votre équipe. Zéro décalage, zéro relais nocturne, zéro friction."
+        },
+        {
+          "title": "Transparence radicale",
+          "text": "40 % de chaque contrat revient directement au développeur — publié publiquement et non négociable."
+        },
+        {
+          "title": "Garantie 72 heures",
+          "text": "Un remplacement est garanti sous 72 heures sur chaque contrat. Sans exception, sans facture supplémentaire."
+        }
+      ]
+    },
+    "stats": {
+      "label": "Les chiffres",
+      "items": [
+        { "value": 40, "prefix": "", "suffix": "%", "label": "de chaque contrat revient au développeur" },
+        { "value": 72, "prefix": "", "suffix": "h", "label": "de garantie de remplacement sur chaque contrat" },
+        { "value": 30, "prefix": "", "suffix": "%+", "label": "d'économies par rapport à l'offshore" },
+        { "value": 97, "prefix": "", "suffix": "%", "label": "de livraisons dans les délais" }
+      ]
+    },
+    "pricingPreview": {
+      "label": "Forfaits & tarifs",
+      "title": "Des tarifs simples et transparents",
+      "subtitle": "Développeur dédié + Success Delivery Manager + garantie de remplacement sous 72 h. Aucun frais caché.",
+      "cta": "Voir tous les tarifs"
+    },
+    "cta": {
+      "title": "Prêt à construire avec l'excellence africaine ?",
+      "text": "Réservez un appel découverte gratuit de 30 minutes. Sans engagement, sans pression — juste une conversation sur vos besoins en ingénierie.",
+      "primary": "Réserver un appel gratuit",
+      "secondary": "Explorer le modèle"
+    }
+  },
+  "pricingPage": {
+    "title": "Forfaits & tarifs",
+    "subtitle": "Développeur dédié + Success Delivery Manager + garantie de remplacement sous 72 h. Aucun frais caché.",
+    "rates": {
+      "label": "Tarifs de référence",
+      "title": "Taux horaires en FCFA",
+      "subtitle": "Taux horaires de référence, utilisés pour les devis sur mesure et les projets en FCFA.",
+      "columns": ["Niveau", "Taux horaire", "Profil type"],
+      "rows": [
+        ["Junior", "15 000 FCFA / h", "Startups, MVP, maintenance"],
+        ["Middle", "25 000 FCFA / h", "Développement produit, feature teams"],
+        ["Senior", "40 000 FCFA / h", "Systèmes enterprise, intégrations complexes"]
+      ]
+    },
+    "packages": {
+      "label": "Forfaits d'équipe",
+      "title": "Des forfaits d'équipe clairs",
+      "subtitle": "Facturation en EUR, par développeur à temps partiel (80 h/mois). Extensible à temps plein.",
+      "period": "par temps partiel (80 h)",
+      "items": [
+        {
+          "name": "Starter",
+          "badge": "",
+          "price": "1 500 €",
+          "description": "1 développeur dédié (Junior ou Middle) + SDM. Idéal pour les startups et les MVP.",
+          "features": [
+            "Développeur Junior ou Middle dédié",
+            "Success Delivery Manager inclus",
+            "Rapports d'avancement hebdomadaires",
+            "Garantie de remplacement sous 72 h",
+            "Sprints agiles (cycles de 2 semaines)",
+            "Accès Discord + GitHub + Google Meet",
+            "Même fuseau horaire (CET/WAT)"
+          ],
+          "cta": "Commencer"
+        },
+        {
+          "name": "Populaire",
+          "badge": "Populaire",
+          "price": "3 000 €",
+          "description": "1 Middle + 2 Juniors + un SDM dédié. Le meilleur rapport valeur/prix pour les équipes produit.",
+          "features": [
+            "1 développeur Middle + 2 Juniors",
+            "Success Delivery Manager dédié",
+            "25 % de remise vs tarifs individuels",
+            "Démos bimensuelles aux parties prenantes",
+            "Rétrospectives de sprint & optimisation",
+            "Toutes les fonctionnalités Starter incluses",
+            "Escalade prioritaire des incidents"
+          ],
+          "cta": "Réserver un appel"
+        },
+        {
+          "name": "Premium",
+          "badge": "",
+          "price": "4 500 €",
+          "description": "Équipes seniors/niches sur mesure + supervision du CEO. Pour les projets enterprise complexes.",
+          "features": [
+            "Composition d'équipe senior & niche sur mesure",
+            "Revue stratégique mensuelle par le CEO",
+            "Conseil en architecture & advisory",
+            "Support prioritaire (SLA de réponse 4 h)",
+            "CI/CD & infrastructure personnalisés",
+            "Toutes les fonctionnalités Populaire incluses",
+            "Environnements de projet dédiés"
+          ],
+          "cta": "Commencer"
+        }
+      ]
+    },
+    "custom": {
+      "title": "Vous avez un budget spécifique ?",
+      "subtitle": "Partagez votre projet et vos contraintes. Nous concevons l'équipe qu'il vous faut — sans engagement.",
+      "steps": [
+        "Vous décrivez votre projet et partagez votre budget maximum.",
+        "Notre équipe analyse le périmètre et conçoit la bonne composition d'équipe.",
+        "Nous vous envoyons une proposition sur mesure sous 48 h — sans obligation."
+      ],
+      "note": "Nous maintenons une marge minimale de 8 % sur tous les projets sur mesure. Si votre budget ne correspond pas, nous vous le dirons honnêtement.",
+      "cta": "Soumettre mon projet & mon budget"
+    }
+  },
+  "joinPage": {
+    "title": "Rejoindre le modèle MRVIN100",
+    "subtitle": "Le modèle est ouvert aux entreprises et aux pays qui veulent une infrastructure d'ingénierie alignée sur leurs réalités.",
+    "companies": {
+      "title": "Pour les entreprises",
+      "description": "Accédez à un réseau d'ingénieurs certifiés, piloté par un SDM, avec une tarification entièrement transparente.",
+      "points": [
+        "Tarification transparente, aucun frais caché",
+        "Un Success Delivery Manager dédié",
+        "Garantie de remplacement sous 72 h",
+        "Même fuseau horaire (CET/WAT)"
+      ]
+    },
+    "countries": {
+      "title": "Pour les pays & institutions",
+      "description": "Adoptez le modèle à l'échelle nationale : nous structurons des réseaux locaux certifiés et des partenariats institutionnels.",
+      "points": [
+        "Structuration de l'écosystème tech local",
+        "Certification et montée en compétences des ingénieurs",
+        "Partenariats avec universités et incubateurs",
+        "Cadres contractuels alignés sur vos juridictions"
+      ]
+    },
+    "criteria": {
+      "title": "Critères d'adhésion",
+      "subtitle": "Nous gardons un réseau restreint et sérieux. Les organisations se qualifient lorsqu'elles réunissent :",
+      "items": [
+        "Un besoin d'ingénierie récurrent (pas un projet ponctuel)",
+        "Un budget mensuel minimum de 1 M FCFA (ou équivalent EUR)",
+        "Un interlocuteur décisionnaire identifié",
+        "Un engagement sur la qualité et la rétroaction continue"
+      ]
+    },
+    "process": {
+      "title": "Comment nous rejoindre",
+      "steps": [
+        "Soumettez votre organisation par e-mail avec votre contexte et vos besoins.",
+        "Un appel découverte de 30 minutes avec notre équipe.",
+        "Alignement sur le périmètre, la composition d'équipe et les tarifs.",
+        "Démarrage sous 72 h après signature."
+      ]
+    },
+    "cta": {
+      "title": "Construisons ensemble",
+      "text": "Écrivez-nous pour rejoindre le réseau MRVIN100 — entreprise, incubateur ou institution.",
+      "primary": "Nous écrire",
+      "secondary": "Lire la documentation"
+    }
+  },
+  "faqPage": {
+    "title": "Questions fréquentes",
+    "subtitle": "Tout ce qu'il faut savoir avant de démarrer.",
+    "items": [
+      {
+        "q": "Les tarifs sont-ils en EUR ou en FCFA ?",
+        "a": "Les deux. Nos taux de référence sont en FCFA — 15 000 (Junior), 25 000 (Middle) et 40 000 (Senior) FCFA par heure. Les clients internationaux sont facturés en forfaits mensuels en EUR : 1 500 € (Starter), 3 000 € (Populaire) et 4 500 € (Premium) par développeur à temps partiel (80 h/mois). Le tarif signé est le tarif payé — aucun frais caché."
+      },
+      {
+        "q": "Que comprend le Success Delivery Manager (SDM) ?",
+        "a": "Votre SDM est votre interlocuteur unique. Il gère la coordination quotidienne avec vos développeurs, la planification des sprints, les rapports hebdomadaires, l'escalade des blocages et les critères de qualité. Un SDM gère au maximum 5 projets simultanément — la qualité de service est plafonnée par conception."
+      },
+      {
+        "q": "Comment fonctionne la garantie de remplacement sous 72 h ?",
+        "a": "Si votre développeur sous-performe, part ou devient indisponible, nous vous présentons un profil de remplacement sous 72 heures. Le remplaçant bénéficie d'une passation de connaissances rémunérée pour que votre projet ne s'arrête jamais. Sans négociation, sans facture supplémentaire."
+      },
+      {
+        "q": "Quelles technologies couvrent vos développeurs ?",
+        "a": "Notre réseau couvre React/Next.js, Node.js, Python, PostgreSQL, le DevOps (Docker, AWS, CI/CD) et le mobile. Les stacks de niche sont évaluées lors de la qualification — et nous vous disons honnêtement si nous ne pouvons pas les couvrir."
+      },
+      {
+        "q": "Existe-t-il une durée de contrat minimale ?",
+        "a": "Aucun minimum fixe. Les contrats à temps partiel sont reconduits mois par mois ; la plupart des clients démarrent sur un engagement de 3 mois, ce qui correspond à notre cadence de sprints. Les contrats à temps plein incluent une clause d'exclusivité qui protège la qualité de livraison."
+      },
+      {
+        "q": "Puis-je commencer à temps partiel puis passer à temps plein ?",
+        "a": "Oui — c'est le parcours standard. Commencez à temps partiel (80 h/mois) pour valider la collaboration, puis passez à temps plein selon vos besoins. Votre développeur, votre SDM et vos outils restent identiques."
+      }
+    ]
+  },
+  "docs": {
+    "label": "Documentation",
+    "title": "Le modèle MRVIN100",
+    "subtitle": "Comment nous construisons une infrastructure d'ingénierie alignée avec l'excellence africaine — principes, tarifs, gouvernance et adhésion.",
+    "sidebarTitle": "Le Modèle",
+    "browseAll": "Parcourir tous les chapitres",
+    "prev": "Précédent",
+    "next": "Suivant",
+    "backToModel": "Retour à la vue d'ensemble du modèle"
+  },
+  "footer": {
+    "tagline": "Mrvin100.de — Infrastructure d'ingénierie pour les entreprises africaines. Talents d'ingénierie de classe mondiale et systèmes opérationnels, construits pour le continent.",
+    "locations": "Berlin · Yaoundé · Conakry",
+    "email": "mrvin100mail@gmail.com",
+    "phones": "+237 658 778 110 (CM) · +224 614 179 276 (GN)",
+    "navTitle": "Navigation",
+    "contactTitle": "Contact",
+    "rights": "© 2026 MRVIN100. Tous droits réservés."
+  },
+  "common": {
+    "notFoundTitle": "Page introuvable",
+    "notFoundText": "Cette page n'existe pas ou a été déplacée.",
+    "backHome": "Retour à l'accueil",
+    "learnMore": "En savoir plus"
+  }
+}
