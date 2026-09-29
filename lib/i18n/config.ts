@@ -15,7 +15,7 @@ export const siteUrl = (
 
 export const contactEmail = "mrvin100mail@gmail.com"
 
-/** Build a locale-prefixed path, e.g. localePath("fr", "pricing") -> "/fr/pricing". */
+/** Build a locale-prefixed path, e.g. localePath("fr", "join") -> "/fr/join". */
 export function localePath(locale: Locale, path = ""): string {
   const clean = path.replace(/^\/+/, "")
   return clean ? `/${locale}/${clean}` : `/${locale}`

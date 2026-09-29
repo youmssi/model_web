@@ -4,7 +4,7 @@ import { localeAlternates, localePath, siteUrl, type Locale } from "@/lib/i18n/c
 
 interface PageMetaOptions {
   locale: Locale
-  /** Page path without the locale prefix, e.g. "pricing". */
+  /** Page path without the locale prefix, e.g. "simulator". */
   path: string
   title: string
   description: string
