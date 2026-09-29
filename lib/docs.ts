@@ -12,18 +12,18 @@ import type { Locale } from "@/lib/i18n/config"
 import En01TheVision from "@/content/docs/en/01-the-vision.mdx"
 import En02HowItWorks from "@/content/docs/en/02-how-it-works.mdx"
 import En03DeveloperPact from "@/content/docs/en/03-the-developer-pact.mdx"
-import En04Sdm from "@/content/docs/en/04-the-success-delivery-manager.mdx"
+import En04Actors from "@/content/docs/en/04-actors-and-responsibilities.mdx"
 import En05Framework from "@/content/docs/en/05-the-economic-framework.mdx"
-import En06Quality from "@/content/docs/en/06-quality-and-the-72h-guarantee.mdx"
+import En06Quality from "@/content/docs/en/06-quality-and-accountable-delivery.mdx"
 import En07Governance from "@/content/docs/en/07-governance-and-transparency.mdx"
 import En08Zones from "@/content/docs/en/08-market-zones-and-standards.mdx"
 import En09Join from "@/content/docs/en/09-join-the-model.mdx"
 import Fr01TheVision from "@/content/docs/fr/01-the-vision.mdx"
 import Fr02HowItWorks from "@/content/docs/fr/02-how-it-works.mdx"
 import Fr03DeveloperPact from "@/content/docs/fr/03-the-developer-pact.mdx"
-import Fr04Sdm from "@/content/docs/fr/04-the-success-delivery-manager.mdx"
+import Fr04Actors from "@/content/docs/fr/04-actors-and-responsibilities.mdx"
 import Fr05Framework from "@/content/docs/fr/05-the-economic-framework.mdx"
-import Fr06Quality from "@/content/docs/fr/06-quality-and-the-72h-guarantee.mdx"
+import Fr06Quality from "@/content/docs/fr/06-quality-and-accountable-delivery.mdx"
 import Fr07Governance from "@/content/docs/fr/07-governance-and-transparency.mdx"
 import Fr08Zones from "@/content/docs/fr/08-market-zones-and-standards.mdx"
 import Fr09Join from "@/content/docs/fr/09-join-the-model.mdx"
@@ -46,9 +46,9 @@ const docRegistry: Record<Locale, Record<string, ComponentType>> = {
     "01-the-vision": En01TheVision,
     "02-how-it-works": En02HowItWorks,
     "03-the-developer-pact": En03DeveloperPact,
-    "04-the-success-delivery-manager": En04Sdm,
+    "04-actors-and-responsibilities": En04Actors,
     "05-the-economic-framework": En05Framework,
-    "06-quality-and-the-72h-guarantee": En06Quality,
+    "06-quality-and-accountable-delivery": En06Quality,
     "07-governance-and-transparency": En07Governance,
     "08-market-zones-and-standards": En08Zones,
     "09-join-the-model": En09Join,
@@ -57,9 +57,9 @@ const docRegistry: Record<Locale, Record<string, ComponentType>> = {
     "01-the-vision": Fr01TheVision,
     "02-how-it-works": Fr02HowItWorks,
     "03-the-developer-pact": Fr03DeveloperPact,
-    "04-the-success-delivery-manager": Fr04Sdm,
+    "04-actors-and-responsibilities": Fr04Actors,
     "05-the-economic-framework": Fr05Framework,
-    "06-quality-and-the-72h-guarantee": Fr06Quality,
+    "06-quality-and-accountable-delivery": Fr06Quality,
     "07-governance-and-transparency": Fr07Governance,
     "08-market-zones-and-standards": Fr08Zones,
     "09-join-the-model": Fr09Join,

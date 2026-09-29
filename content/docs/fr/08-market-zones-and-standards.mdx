@@ -1,75 +1,39 @@
 ---
-title: Zones de marché et standards
-description: Comment le cadre reste universel pendant que les prix, contrats et critères s'adaptent par zone de marché.
+title: Pays, régions et standards locaux
+description: Une structure commune de codes pays qui respecte la diversité des marchés africains.
 order: 8
 ---
 
-Le modèle MRVIN100 est un cadre, et un cadre doit être stable là où cela compte et adaptable là où la réalité diffère. C'est le rôle des zones de marché : les règles universelles restent universelles, et les paramètres locaux sont maintenus par zone, de façon transparente et publique.
+Les pays africains ne partagent ni un marché du travail, ni une monnaie, ni un système juridique ou une structure de coûts uniques. MRVIN100 doit conserver un cadre commun tout en rendant visibles les conditions de chaque pays.
 
-## Pourquoi les zones existent
+## Identifiants nationaux
 
-Une entreprise en Afrique centrale, un État en Afrique de l'Ouest et un client en Europe ne partagent pas la même monnaie, le même coût de la vie, le même système juridique ou le même vivier de talents. Imposer une liste de prix absolus unique à tous reviendrait soit à exclure les adoptants locaux, soit à sous-payer les développeurs.
+Chaque profil pays utilise un code national stable à deux lettres, comme CM pour le Cameroun. Les noms peuvent être traduits ; l’identifiant reste la clé pour relier données, cartes et révisions. La carte est un index géographique, pas la preuve que des données de marché ont été collectées.
 
-Le modèle résout cela en séparant deux choses :
+## Construire les profils pays avant les totaux régionaux
 
-- **Le cadre :** pourcentages, rôles, garanties et critères. Un seul ensemble, publié, valable partout.
-- **Les standards de zone :** prix absolus, conventions monétaires, modèles juridiques, variantes de SLA et critères de certification. Maintenus par zone.
+Un profil peut présenter :
 
-## Le cadre, constant partout
+- Les métiers, compétences, expériences et estimations de la main-d’œuvre en ingénierie
+- Des fourchettes de rémunération comparables par métier et niveau
+- La demande des employeurs et les signaux issus des offres d’emploi
+- Les revenus et la valeur ajoutée du secteur numérique
+- La valeur mesurée rendue possible dans les autres secteurs
+- Les conventions monétaires et les dates de taux de change
+- Les règles du travail, de la fiscalité, des achats publics et des données
+- Les dates des sources, leur couverture, leur niveau de confiance et les lacunes connues
 
-Ces éléments ne changent pas d'une zone à l'autre :
+Chaque indicateur nécessite une définition claire. Le nombre d’offres en ligne n’est pas équivalent à toute la demande d’embauche ; une estimation de l’économie mobile n’est pas le chiffre d’affaires du secteur logiciel.
 
-- 40 % de chaque contrat vont au développeur
-- Part du SDM entre 8 et 12 %, liée à la complexité
-- Part de l'agent entre 3 et 7 %
-- La norme de remplacement sous 72 heures
-- Le processus de vérification en cinq étapes
-- Le plafond de cinq projets par SDM
-- Les critères d'adhésion
+## Vues régionales
 
-## Les standards de zone, maintenus par zone
+Les pages régionales ne peuvent synthétiser les pays que lorsque les indicateurs sont comparables et que les lacunes sont visibles. Un total régional doit préciser les pays et les années couverts. Les données nationales absentes ne doivent pas être assimilées silencieusement à zéro, ni extrapolées à tout un continent à partir de quelques pays.
 
-Chaque zone publie et maintient son propre ensemble de paramètres sous le cadre :
+## Vue continentale
 
-| Paramètre | Exemple de variation |
-| --- | --- |
-| Tarifs horaires de référence par niveau | Afrique centrale vs Afrique de l'Ouest vs Europe |
-| Conventions monétaires | zones FCFA, zones EUR, autres zones monétaires |
-| Ajustements de coût de vie | base de la part du développeur |
-| Variantes de SLA | jamais sous le minimum du cadre |
-| Modèles juridiques et contractuels | alignés sur le droit local |
-| Critères de certification | adaptés aux systèmes éducatifs locaux |
+Une estimation pour l’Afrique doit indiquer sa formule, sa couverture, la version des sources, son incertitude et sa date de mise à jour. La valeur directe du secteur numérique doit rester distincte de la valeur rendue possible dans la finance, la santé, l’agriculture ou les services publics. Ces catégories ne peuvent être additionnées que si une méthode défendable évite les doubles comptes.
 
-Un paramètre du cadre ne peut pas être modifié par une zone. Un standard de zone ne peut changer que par le processus de maintenance publié de la zone.
+## Sources et mise à jour
 
-## Comment les standards sont maintenus
+Privilégiez les agences statistiques nationales, banques centrales, ministères, régulateurs, jeux de données multilatéraux et recherches évaluées par les pairs ou documentées clairement. Les données commerciales peuvent apporter des signaux utiles, mais leur couverture et leurs biais doivent être décrits. Chaque profil doit afficher les sources et sa date de dernière révision.
 
-Les standards sont des documents vivants. Le processus de maintenance est public :
-
-1. **Proposition.** Une modification d'un standard de zone est proposée avec une justification et des données.
-2. **Revue.** Les adoptants de la zone sont consultés ; le pacte du développeur n'est jamais affaibli.
-3. **Versionnage.** La modification est publiée avec un numéro de version, une date et l'ancienne valeur.
-4. **Migration.** Les contrats en cours gardent leurs conditions signées ; les nouveaux contrats utilisent le nouveau standard.
-
-Rien ne change en silence. Chaque mise à jour est visible dans cette documentation et dans les standards publiés de la zone.
-
-## Exemples de zones
-
-Pour illustrer, deux zones peuvent publier des tarifs de référence différents pour le même niveau de séniorité, parce que les bases de coûts diffèrent :
-
-| Niveau | Zone A (Afrique centrale) | Zone B (Afrique de l'Ouest) |
-| --- | --- | --- |
-| Junior | 15 000 FCFA / h | 18 000 FCFA / h |
-| Middle | 25 000 FCFA / h | 30 000 FCFA / h |
-| Senior | 40 000 FCFA / h | 48 000 FCFA / h |
-
-Les pourcentages restent identiques. Les valeurs absolues s'adaptent. Les deux sont publiées, pour que chacun puisse vérifier les deux.
-
-## Pourquoi cela importe aux adoptants
-
-- **Prévisibilité :** vous savez quelles règles sont universelles et lesquelles sont locales
-- **Équité :** les zones ne peuvent pas exploiter leur position pour sous-payer les développeurs
-- **Transparence :** chaque standard, chaque version, est public
-- **Échelle :** le modèle peut s'étendre à travers le continent sans perdre ses principes
-
-Chapitre suivant : [rejoindre le modèle](/fr/model/09-join-the-model), pour entreprises, développeurs, pays et institutions.

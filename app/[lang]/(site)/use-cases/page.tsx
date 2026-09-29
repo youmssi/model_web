@@ -13,7 +13,6 @@ import {
 
 import { AnimatedContent } from "@/components/AnimatedContent"
 import { SectionHeading } from "@/components/marketing/section-heading"
-import SpotlightCard from "@/components/SpotlightCard"
 import { Button } from "@/components/ui/button"
 import { getDictionary } from "@/lib/i18n/dictionaries"
 import { isLocale, localePath } from "@/lib/i18n/config"
@@ -25,7 +24,9 @@ interface PageProps {
 
 const icons = [Rocket, Briefcase, Building2, Landmark, GraduationCap, Handshake]
 
-export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
   const { lang } = await params
   if (!isLocale(lang)) notFound()
   const dict = getDictionary(lang)
@@ -44,7 +45,7 @@ export default async function UseCasesPage({ params }: PageProps) {
 
   return (
     <>
-      <section className="mx-auto w-full max-w-6xl px-4 pb-16 pt-16 sm:pt-20">
+      <section className="mx-auto w-full max-w-6xl px-4 pt-16 pb-16 sm:pt-20">
         <SectionHeading
           as="h1"
           title={dict.useCasesPage.title}
@@ -59,19 +60,18 @@ export default async function UseCasesPage({ params }: PageProps) {
             return (
               <AnimatedContent
                 key={area.title}
-                distance={40}
-                duration={0.6}
+                distance={14}
+                duration={0.45}
                 delay={(index % 2) * 0.1}
                 className="h-full"
               >
-                <SpotlightCard
-                  className="flex h-full flex-col gap-4 rounded-2xl p-6 sm:p-8"
-                  spotlightColor="rgba(16, 160, 111, 0.14)"
-                >
-                  <span className="flex size-10 items-center justify-center rounded-md bg-primary/10 text-primary">
+                <article className="flex h-full flex-col gap-4 rounded-2xl border border-border bg-card p-6 sm:p-8">
+                  <span className="flex size-10 items-center justify-center rounded-md bg-muted text-foreground">
                     <Icon className="size-5" />
                   </span>
-                  <h2 className="text-lg font-semibold tracking-tight">{area.title}</h2>
+                  <h2 className="text-lg font-semibold tracking-tight">
+                    {area.title}
+                  </h2>
                   <p className="text-sm leading-relaxed text-muted-foreground">
                     {area.text}
                   </p>
@@ -89,7 +89,7 @@ export default async function UseCasesPage({ params }: PageProps) {
                       </li>
                     ))}
                   </ul>
-                </SpotlightCard>
+                </article>
               </AnimatedContent>
             )
           })}
@@ -98,10 +98,10 @@ export default async function UseCasesPage({ params }: PageProps) {
 
       <section className="border-t border-border/60 bg-muted/30">
         <div className="mx-auto flex w-full max-w-6xl flex-col items-center gap-4 px-4 py-20 text-center">
-          <h2 className="text-balance text-2xl font-semibold tracking-tight sm:text-3xl">
+          <h2 className="text-2xl font-semibold tracking-tight text-balance sm:text-3xl">
             {dict.useCasesPage.cta.title}
           </h2>
-          <p className="max-w-xl text-pretty text-sm leading-relaxed text-muted-foreground sm:text-base">
+          <p className="max-w-xl text-sm leading-relaxed text-pretty text-muted-foreground sm:text-base">
             {dict.useCasesPage.cta.text}
           </p>
           <div className="mt-2 flex flex-col gap-3 sm:flex-row">

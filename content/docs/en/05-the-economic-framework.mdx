@@ -1,72 +1,38 @@
 ---
 title: The economic framework
-description: What the model standardizes, what each market zone maintains, and how to simulate your own case.
+description: Transparent pricing inputs, country benchmarks and responsible simulation.
 order: 5
 ---
 
-Pricing is where most agencies hide their economics. The MRVIN100 model does the opposite: it publishes the framework, so the numbers are the proof of the model.
+The model aims to make the economics of engineering work understandable to everyone involved. It does not prescribe a fixed percentage split or one absolute price for the continent.
 
-## What is standardized, what is not
+## Show the inputs
 
-The model makes a clear distinction:
+A transparent project estimate should make visible:
 
-- **The framework is standardized and universal.** Percentages, roles, guarantees and criteria are published once and apply everywhere. Examples: the 40% developer share, the 8 to 12% SDM range, the 72-hour replacement standard.
-- **Absolute prices are maintained per market zone.** What is standard in Central Africa can differ from West Africa, East Africa or Europe. Each zone publishes its own parameters under the same framework.
+- The scope, delivery period and assumptions
+- Engineer pay and the evidence used to set it
+- Delivery, coordination, mentorship and quality-support costs
+- Taxes, payment fees, tools, insurance or other applicable costs
+- Agency, operating or reinvestment amounts, where they apply
+- Currency, exchange-rate date and payment schedule
+- What is excluded and how scope changes will be priced
 
-This is why there is no single price list in this documentation. The framework is the constant; the zone parameters are the variables.
+The parties should be able to understand where a number came from and who bears each risk. Transparency does not mean every organization must use identical business economics.
 
-## The published split
+## Country and role benchmarks
 
-Every contract follows the same allocation:
+Compensation follows the direction set out in chapter 3: use a country-specific target informed by comparable roles and experience. Before treating that target as a standard, publish the method and current evidence. Cite dates, coverage and limitations; a broad regional average should not replace a suitable local benchmark.
 
-| Allocation | Share |
-| --- | --- |
-| Developer | 40%, sacred |
-| Success Delivery Manager | 8 to 12%, complexity-based |
-| Marketing | 12%, organic-first |
-| Acquisition agent | 3 to 7%, base + commission + retention |
-| Founder | 3%, scales with revenue |
-| Tech infrastructure | 5% |
-| Reserves | 5% |
-| Remainder | reinvested in the network and operations |
+## How the public playground should develop
 
-The split is published here, in the documentation, and is the same for every client in every zone.
+A public illustrative simulator is available as an early prototype. It lets users adjust engineer pay, delivery support and local costs, but its sample inputs are not evidence or adopted pricing rules. A later evidence-backed playground could let companies, agencies, public institutions, engineers and maintainers enter country-specific inputs and compare scenarios. It should show formulas, defaults, version, sources and sensitivity to assumptions, and distinguish an observed benchmark from an estimate or negotiated contract.
 
-## Simulate your case
+The simulator is a decision aid, not a quote, wage guarantee or approval of a particular arrangement. It should not imply that one modeled distribution is already mandatory.
 
-Because the framework is numeric, it can be simulated. The [simulator](/en/simulator) lets a decision maker:
+## Do not disguise uncertainty
 
-- Enter a monthly contract value in FCFA or EUR
-- Adjust the variable shares (SDM and agent) within their published ranges
-- See the split update in real time as a chart
-- Switch between the view of every actor: company, developer, SDM, agent, state
+If reliable local data are missing, show a range, confidence note or “not yet available” status. Do not fill gaps with false precision. Any public comparison of direct, indirect or enabled digital value should state the source and method and avoid counting the same value twice.
 
-The simulator implements the published framework exactly. It is a decision tool, not a sales pitch.
+No fixed percentages, commissions, reserves, service fees or profit targets are model rules unless they are separately agreed, evidenced and adopted through the published governance process.
 
-## Zone parameters
-
-Each market zone maintains its own set of parameters, under the same framework. Typical zone parameters include:
-
-- Reference hourly rates by seniority level (e.g. Junior, Middle, Senior)
-- Currency conventions (FCFA zones, EUR zones, other monetary areas)
-- Local cost-of-living adjustments for the developer share baseline
-- SLA variants adapted to local conditions, never below the framework minimum
-- Legal and contract templates aligned with local law
-
-Zone parameters are published and versioned like the framework itself. See [market zones and standards](/en/model/08-market-zones-and-standards) for the full explanation.
-
-## What the price includes
-
-When an adopter pays for a contract, they pay for a delivery system, not a headcount:
-
-- The developer (40% of every contract)
-- The Success Delivery Manager
-- Tooling (Discord, GitHub, Cal.com, Formbricks)
-- Quality gates and reporting
-- The 72-hour replacement standard
-
-## The honest no
-
-The model maintains a minimum margin on all custom projects. If a budget cannot support fair developer pay and a healthy delivery system, the honest answer is given rather than squeezing the developer. This is why the model works for everyone, or not at all.
-
-Next chapter: [quality and the 72-hour guarantee](/en/model/06-quality-and-the-72h-guarantee), in depth.

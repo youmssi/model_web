@@ -1,8 +1,8 @@
 {
   "meta": {
     "siteName": "MRVIN100",
-    "title": "Le Modèle MRVIN100, un collectif ouvert pour l'ingénierie africaine",
-    "description": "Un modèle ouvert pour l'ingénierie en Afrique : une économie publiée, 40 % de chaque contrat au développeur, une norme de remplacement sous 72 heures, et des standards par zone de marché adoptables par les entreprises, les talents, les États et les institutions."
+    "title": "Ingénierie africaine, organisée pour une croissance durable | MRVIN100",
+    "description": "Un cadre ouvert et adapté à chaque pays pour organiser les talents d’ingénierie africains, soutenir un travail équitable, la qualité de livraison, le mentorat et les capacités locales."
   },
   "nav": {
     "home": "Accueil",
@@ -11,263 +11,335 @@
     "useCases": "Cas d'usage",
     "faq": "FAQ",
     "join": "Rejoindre",
-    "bookCall": "Rejoindre le modèle",
+    "bookCall": "Adopter le cadre",
     "openMenu": "Ouvrir le menu",
     "closeMenu": "Fermer le menu",
     "language": "Changer de langue",
-    "theme": "Changer de thème"
+    "theme": "Changer de thème",
+    "countryMap": "Atlas des pays",
+    "evidence": "Données",
+    "framework": "Cadre",
+    "adoption": "Adoption",
+    "compare": "Comparer",
+    "contact": "Contact"
   },
   "home": {
+    "logoCloud": {
+      "title": "Un cadre ouvert pour",
+      "actors": ["Entreprises", "Agences", "Institutions publiques", "Réseaux de développeurs"]
+    },
     "hero": {
-      "badge": "Un collectif ouvert pour l'ingénierie africaine",
-      "titleLine1": "Un modèle, adopté à travers",
-      "titleAccent": "le continent",
-      "subtitle": "MRVIN100 est un cadre publié, pas une entreprise fermée : une économie transparente, 40 % de chaque contrat au développeur, une norme de remplacement sous 72 heures, et des standards par zone de marché que chacun peut adopter.",
-      "primaryCta": "Rejoindre le collectif",
-      "secondaryCta": "Lire le modèle"
+      "badge": "Un cadre pour développer les capacités d’ingénierie en Afrique",
+      "titleLine1": "Les talents d’ingénierie africains,",
+      "titleAccent": "organisés pour grandir.",
+      "subtitle": "MRVIN100 construit un cadre adapté à chaque pays pour aider les organisations à travailler avec des ingénieurs africains, développer les compétences localement et rendre l’économie du modèle lisible.",
+      "primaryCta": "Explorer l’atlas",
+      "secondaryCta": "Comprendre le cadre",
+      "trustItems": [
+        "Adapté à chaque pays",
+        "Transparent par conception",
+        "Ouvert à l’adoption"
+      ]
     },
-    "adopters": {
-      "label": "Construit avec et adopté par",
-      "subtext": "Des entreprises, institutions et développeurs qui travaillent sous le modèle et en façonnent les standards.",
-      "ariaLabel": "Organisations et développeurs qui ont adopté le modèle MRVIN100",
-      "orgsLabel": "Des organisations qui ont fait confiance aux talents du modèle",
-      "devsLabel": "Des développeurs qui travaillent sous le modèle",
-      "devShareNote": "40 % de chaque contrat va au développeur"
+    "atlas": {
+      "eyebrow": "Explorer l’Afrique, pays par pays",
+      "title": "Un continent. Des réalités nationales distinctes.",
+      "description": "Choisissez un pays pour explorer son profil. Chaque profil sera construit à partir de sources locales datées et vérifiables ; une frontière affichée ne signifie pas que ses données économiques sont déjà publiées.",
+      "coverage": "54 frontières nationales",
+      "searchLabel": "Trouver un pays",
+      "searchPlaceholder": "Rechercher par nom ou code pays",
+      "regionLabel": "Parcourir par région",
+      "allRegions": "Toutes les régions",
+      "regions": {
+        "north": "Afrique du Nord",
+        "west": "Afrique de l’Ouest",
+        "central": "Afrique centrale",
+        "east": "Afrique de l’Est",
+        "south": "Afrique australe"
+      },
+      "selectedCountry": "Pays sélectionné",
+      "viewProfile": "Ouvrir le profil pays",
+      "initialBadge": "Premier profil",
+      "preparingBadge": "Données en préparation",
+      "profileTitle": "Profil pays",
+      "initialProfileText": "Le Cameroun est le premier profil. Les informations nationales seront publiées au fur et à mesure de la collecte et de la vérification des sources locales.",
+      "preparingProfileText": "Ce pays est cartographié. Son profil de données sera publié lorsque des sources locales fiables auront été collectées et vérifiées.",
+      "profileStatusTitle": "Les données nationales sont en cours de constitution",
+      "profileStatusText": "Aucun chiffre de marché national n’est affiché ici pour le moment. Le profil séparera statistiques publiées, estimations et scénarios.",
+      "topicsTitle": "Contenu prévu pour chaque profil",
+      "topics": [
+        "Talents d’ingénierie et expérience",
+        "Besoins des employeurs et repères de rémunération",
+        "Valeur du secteur numérique et adoption",
+        "Valeur créée dans les autres secteurs",
+        "Réglementation et conditions opérationnelles locales"
+      ],
+      "contributionCta": "Contribuer des données locales",
+      "countryListLabel": "Parcourir tous les pays",
+      "noResults": "Aucun pays ne correspond à cette recherche.",
+      "mapLabel": "Carte interactive des 54 États africains membres des Nations Unies",
+      "sourceAttribution": "Frontières adaptées de @svg-maps/world 2.0.0 par Victor Cazanave, sous licence CC BY 4.0.",
+      "boundaryNote": "Les frontières servent au repérage géographique ; les chiffres proviendront de sources citées séparément.",
+      "regionCount": "Groupes régionaux"
     },
-    "how": {
-      "label": "Comment fonctionne le modèle",
-      "title": "Un cadre que chacun peut adopter",
-      "subtitle": "Le modèle n'est pas un catalogue de services. C'est un standard de pratique, publié en entier et maintenu par zone de marché.",
+    "evidence": {
+      "eyebrow": "Les preuves avant les affirmations",
+      "title": "Une source claire derrière chaque chiffre.",
+      "description": "La vue d’ensemble distingue la valeur directe du secteur numérique de la valeur rendue possible dans les autres secteurs. Chaque chiffre précise l’année, le périmètre, la source et ses limites.",
+      "contextLabel": "Repères économiques",
+      "items": [
+        {
+          "value": "240 Md $",
+          "qualifier": "2025 · 7,8 % du PIB",
+          "title": "Technologies et services mobiles",
+          "text": "La GSMA estime la contribution de l’écosystème mobile à l’économie africaine. C’est un repère général, pas une mesure des revenus de l’ingénierie logicielle.",
+          "source": "GSMA · Mobile Economy Africa 2026",
+          "href": "https://www.gsma.com/newsroom/press-release/mobile-technologies-contributed-240-billion-to-africas-economy-in-2025-as-the-continent-enters-a-new-phase-of-digital-transformation/"
+        },
+        {
+          "value": "4,9 M",
+          "qualifier": "Janv. 2020–août 2024 · 4 pays",
+          "title": "Offres d’emploi en ligne analysées",
+          "text": "Une étude de la Banque mondiale a analysé des offres au Kenya, au Nigeria, en Afrique du Sud et en Ouganda. Les offres en ligne représentent davantage les postes formels et qualifiés ; elles ne sont pas toutes des offres en logiciel.",
+          "source": "Banque mondiale · Digital Skills for Africa",
+          "href": "https://documents1.worldbank.org/curated/en/099746512082541920/pdf/IDU-dcae1207-ed6e-4383-9c7f-1f2b2dbae522.pdf"
+        },
+        {
+          "value": "13 M",
+          "qualifier": "2025 · estimation GSMA",
+          "title": "Emplois soutenus par l’écosystème mobile",
+          "text": "La GSMA estime que l’écosystème mobile a soutenu environ 13 millions d’emplois en Afrique en 2025. C’est un indicateur général de l’économie numérique, pas un décompte des développeurs.",
+          "source": "GSMA · Mobile Economy Africa 2026",
+          "href": "https://www.gsma.com/solutions-and-impact/connectivity-for-good/mobile-economy/africa/"
+        }
+      ],
+      "distinctionTitle": "Deux types de valeur. Deux mesures distinctes.",
+      "directTitle": "Valeur générée directement",
+      "directText": "Revenus et valeur ajoutée des éditeurs de logiciels, services numériques et entreprises technologiques.",
+      "enabledTitle": "Valeur créée dans les autres secteurs",
+      "enabledText": "Évolutions mesurées des coûts, de la productivité, de l’accès ou de la qualité des services grâce aux systèmes numériques.",
+      "methodNote": "Une estimation de l’économie mobile ou le résultat d’un projet unique ne deviendra pas un chiffre continental du marché logiciel."
+    },
+    "framework": {
+      "eyebrow": "Le cadre",
+      "title": "Des principes communs. Des pratiques adaptées au pays.",
+      "description": "Le cadre fixe des engagements clairs et permet aux mainteneurs locaux d’adapter leur mise en œuvre aux lois, monnaies, marchés du travail et réalités opérationnelles.",
+      "readMore": "Lire le cadre",
+      "principles": [
+        {
+          "title": "Rémunération locale équitable",
+          "text": "Viser une rémunération dans la tranche supérieure de 30 % des salaires comparables du pays, à partir de données locales récentes et d’une méthode publiée."
+        },
+        {
+          "title": "Les compétences grandissent par le travail",
+          "text": "Associer des projets réels à un mentorat structuré des ingénieurs expérimentés vers les talents en début de carrière."
+        },
+        {
+          "title": "Économie transparente",
+          "text": "Montrer comment les prix financent la rémunération des ingénieurs, la livraison, le mentorat et des opérations durables."
+        },
+        {
+          "title": "Qualité et responsabilité",
+          "text": "Définir clairement le périmètre, la communication, la livraison, les retours et la résolution des problèmes."
+        },
+        {
+          "title": "Adaptation locale et gouvernance ouverte",
+          "text": "Maintenir un socle commun, publier des annexes nationales, consigner les changements et inviter les professionnels à contribuer."
+        }
+      ],
+      "statusNote": "La cible des 30 % supérieurs est à valider pays par pays ; ce n’est pas une garantie salariale publiée. Les règles et repères exigent des sources locales datées."
+    },
+    "adoption": {
+      "eyebrow": "Ouvert à l’adoption",
+      "title": "Un cadre que d’autres peuvent façonner et utiliser.",
+      "description": "Les entreprises, agences, institutions publiques et réseaux de développeurs peuvent explorer le cadre et contribuer à son adaptation. L’adoption est volontaire ; l’usage du nom MRVIN100 devrait s’accompagner d’engagements clairs et publiés.",
+      "stagesTitle": "Un parcours de reconnaissance transparent",
+      "stages": [
+        {
+          "title": "Déclaré",
+          "text": "Une organisation publie les principes qu’elle déclare appliquer."
+        },
+        {
+          "title": "Examiné",
+          "text": "Des éléments de preuve sont vérifiés selon des critères publics, avec la date de revue."
+        },
+        {
+          "title": "Mainteneur local",
+          "text": "Des professionnels contribuent à une annexe nationale selon un processus documenté."
+        }
+      ],
+      "directoryNote": "Un répertoire public des adoptants viendra dans une prochaine étape. Aucune organisation ne sera affichée comme adoptante sans son accord.",
+      "cta": "Contribuer au cadre"
+    },
+    "roadmap": {
+      "eyebrow": "Établir les preuves, puis déployer",
+      "title": "Un chemin concret du Cameroun à une vue continentale.",
       "steps": [
         {
-          "title": "Lisez le cadre publié",
-          "text": "La répartition des revenus, le rôle du SDM et la norme 72 heures sont publics. Pas de boîte noire, pas de marge cachée."
+          "title": "Publier la méthode",
+          "text": "Définir les indicateurs, les règles de sourcing, les niveaux de confiance et le calcul des estimations."
         },
         {
-          "title": "Simulez votre cas",
-          "text": "Le simulateur estime en temps réel ce que chaque acteur gagne sur un contrat. Pensé pour les décideurs."
+          "title": "Construire les profils pays",
+          "text": "Commencer par le Cameroun, puis ajouter les pays lorsque les données locales seront vérifiées."
         },
         {
-          "title": "Adoptez les standards",
-          "text": "Entreprises, talents, États et institutions rejoignent le collectif sous les mêmes règles publiées."
+          "title": "Comparer les régions avec méthode",
+          "text": "Créer des vues régionales à partir de données nationales compatibles et publier les lacunes."
         },
         {
-          "title": "Les standards sont maintenus",
-          "text": "Chaque zone de marché maintient ses propres paramètres, mis à jour de façon transparente."
+          "title": "Ouvrir le simulateur et le répertoire des adoptants",
+          "text": "Permettre à chacun de tester des hypothèses transparentes et de partager des pratiques examinées."
         }
       ]
-    },
-    "pillars": {
-      "label": "Les trois engagements",
-      "title": "Ce que le modèle garantit",
-      "subtitle": "Trois engagements valent pour chaque acteur du canal, de l'entreprise au développeur.",
-      "items": [
-        {
-          "title": "Transparence radicale",
-          "text": "40 % de chaque contrat vont directement au développeur, publiés publiquement et non négociables."
-        },
-        {
-          "title": "Livraison responsable",
-          "text": "Un Success Delivery Manager pilote la coordination et la qualité sur chaque projet, plafonné à cinq projets."
-        },
-        {
-          "title": "La norme 72 heures",
-          "text": "Un remplacement sous 72 heures sur chaque contrat, avec transfert de connaissances rémunéré et sans facture supplémentaire."
-        }
-      ]
-    },
-    "stats": {
-      "label": "Les chiffres",
-      "items": [
-        { "value": 40, "prefix": "", "suffix": "%", "label": "de chaque contrat va au développeur" },
-        { "value": 72, "prefix": "", "suffix": "h", "label": "norme de remplacement sur chaque contrat" },
-        { "value": 97, "prefix": "", "suffix": "%", "label": "de livraison à temps" },
-        { "value": 8, "prefix": "", "suffix": "-12%", "label": "part du SDM, liée à la complexité" }
-      ]
-    },
-    "simulatorPreview": {
-      "label": "Simulateur",
-      "title": "Voyez le modèle en chiffres",
-      "subtitle": "Saisissez une valeur de contrat et regardez la répartition publiée allouer la valeur à chaque acteur, en temps réel.",
-      "cta": "Ouvrir le simulateur"
-    },
-    "useCasesPreview": {
-      "label": "Cas d'usage",
-      "title": "Où le modèle crée de la valeur",
-      "subtitle": "D'une entreprise à toute une région : le modèle bénéficie aux entreprises, aux talents, aux États, aux universités et aux agences.",
-      "cta": "Explorer les cas d'usage"
     },
     "cta": {
-      "title": "Adoptez le modèle. Construisez le collectif.",
-      "text": "Rejoignez en tant qu'entreprise, développeur, pays ou institution. Commencez par le cadre publié et le simulateur.",
-      "primary": "Rejoindre le collectif",
-      "secondary": "Lire la documentation"
+      "title": "Construisons un cadre digne de confiance.",
+      "text": "Contribuez des données nationales, relisez une annexe locale ou explorez comment votre organisation pourrait appliquer ces principes.",
+      "primary": "Participer à la discussion",
+      "secondary": "Explorer les données pays"
     }
   },
   "simulatorPage": {
-    "title": "Simulateur",
-    "subtitle": "Estimez en temps réel ce que chaque acteur du modèle gagne sur un contrat. Ajustez les entrées, observez la répartition se mettre à jour, et changez de point de vue pour chaque acteur du canal.",
-    "inputsTitle": "Entrées du contrat",
+    "title": "Espace de simulation des prix",
+    "subtitle": "Explorez la répartition possible d’un budget d’ingénierie. Saisissez vos propres hypothèses de rémunération, de soutien à la livraison et de coûts locaux ; aucun prix ni partage affiché ici n’est une règle fixe de MRVIN100.",
+    "inputsTitle": "Définir un scénario",
+    "inputsNote": "Commencez par le budget total, puis saisissez les montants à répartir. Le solde ou le dépassement se met à jour à chaque modification.",
     "currencyLabel": "Devise",
-    "valueLabel": "Valeur mensuelle du contrat",
-    "devShareLabel": "Part du développeur",
-    "devShareHint": "Fixée par le modèle, non négociable",
-    "sdmShareLabel": "Part du SDM",
-    "sdmShareHint": "Liée à la complexité du projet, 8 à 12 %",
-    "agentShareLabel": "Part de l'agent",
-    "agentShareHint": "Base + commission + rétention, 3 à 7 %",
-    "splitTitle": "Où va le contrat",
-    "splitNote": "La part du développeur est sacrée. Les parts variables ajustent le reste, réinvesti dans le réseau et les opérations.",
-    "viewTitle": "Votre point de vue",
-    "viewSelectLabel": "Voir comme",
-    "views": ["Entreprise", "Développeur", "SDM", "Agent", "État"],
-    "viewCopy": {
-      "company": {
-        "title": "Vue entreprise",
-        "text": "Vous payez la valeur du contrat et recevez un système de livraison : développeur vérifié, SDM, jalons qualité et norme de remplacement sous 72 heures. Chaque FCFA de votre budget est comptabilisé publiquement."
-      },
-      "developer": {
-        "title": "Vue développeur",
-        "text": "40 % de chaque contrat vous reviennent directement. Cette part est publiée et non négociable : votre revenu suit la valeur que vous livrez, pas votre talent de négociation."
-      },
-      "sdm": {
-        "title": "Vue SDM",
-        "text": "Votre part est liée à la complexité : 8 % sur les charges légères, jusqu'à 12 % sur les charges lourdes. Vous gagnez plus seulement quand vous prenez plus et livrez."
-      },
-      "agent": {
-        "title": "Vue agent",
-        "text": "Part de base plus commission et bonus de rétention. L'acquisition et la rétention sont récompensées, le churn ne l'est pas."
-      },
-      "state": {
-        "title": "Vue État",
-        "text": "La valeur du contrat reste dans l'économie régionale : revenus des développeurs, partenariats locaux, programmes de certification et réserves réinvesties."
-      }
-    },
-    "disclaimer": "Ce simulateur applique le cadre publié. Chaque zone de marché maintient ses propres standards de prix : les valeurs absolues sont des estimations, pas des offres."
+    "budgetLabel": "Budget total du projet",
+    "engineersLabel": "Rémunération des ingénieurs",
+    "deliveryLabel": "Livraison, mentorat et soutien qualité",
+    "localCostsLabel": "Taxes, paiements et autres coûts locaux",
+    "sourceNote": "Les valeurs initiales servent uniquement à montrer le calcul. Remplacez-les par des données actuelles sur le pays et le métier avant d’utiliser un scénario pour une décision réelle.",
+    "resultEyebrow": "Total du scénario",
+    "overBudget": "Dépassement du budget",
+    "remaining": "Non affecté / restant",
+    "allocationLabel": "Répartition proposée du budget projet",
+    "disclaimer": "Outil de calcul illustratif uniquement. Il ne vérifie pas l’équité salariale, ne fixe pas un prix de marché, ne vaut pas devis et ne représente pas une règle de répartition adoptée par MRVIN100."
   },
   "useCasesPage": {
     "title": "Cas d'usage",
-    "subtitle": "Le modèle est un cadre, sa valeur se manifeste donc différemment pour chaque acteur. Voici les domaines où il produit des résultats mesurables.",
+    "subtitle": "Le cadre peut contribuer différemment selon les acteurs. Ces pistes décrivent des résultats visés, pas des effets déjà mesurés.",
     "areas": [
       {
         "title": "Pour le continent",
-        "text": "Construire une capacité d'ingénierie qui rivalise sur la qualité, pas sur la sous-rémunération.",
+        "text": "Renforcer les conditions permettant aux ingénieurs et organisations africains de créer des solutions utiles localement.",
         "points": [
-          "Retenir les talents au lieu de les exporter",
-          "Créer des revenus étrangers à partir d'un travail produit localement",
-          "Établir des standards régionaux de partage équitable des revenus",
-          "Réinvestir dans les écosystèmes et la formation locaux"
+          "Créer davantage d’occasions d’appliquer les compétences aux besoins locaux",
+          "Développer l’expérience grâce à des projets concrets",
+          "Rendre les hypothèses de rémunération et de livraison plus lisibles",
+          "Soutenir le mentorat et le partage de connaissances quand la capacité le permet"
         ]
       },
       {
         "title": "Pour les entreprises",
-        "text": "Une équipe d'ingénierie prévisible, avec une économie publiée et un SDM responsable.",
+        "text": "Clarifier le périmètre, le contexte local, les hypothèses de prix et les responsabilités de livraison.",
         "points": [
-          "Un SDM pilote la qualité de livraison, plafonné à cinq projets",
-          "Aucune marge cachée : la répartition des revenus est publique",
-          "Norme de remplacement sous 72 heures sur chaque contrat",
-          "Du temps partiel au temps plein sans changer d'équipe ni d'outils"
+          "Comparer les options de livraison à périmètre égal",
+          "Comprendre rémunération, soutien, taxes et exclusions",
+          "Définir qui porte la planification, la revue et la passation",
+          "Adapter l’engagement au droit, à la monnaie et au contexte du pays"
         ]
       },
       {
         "title": "Pour les talents",
-        "text": "Un parcours qui paie les développeurs à la hauteur de la valeur du contrat.",
+        "text": "Un cadre qui place les compétences d’ingénierie au cœur d’un développement numérique durable.",
         "points": [
-          "40 % de chaque contrat, publiés et non négociables",
-          "Du travail régulier via un pipeline géré",
-          "Progression Junior vers Senior avec certification",
-          "Un travail qui prouve que les développeurs africains rivalisent à l'international"
+          "Viser les 30 % supérieurs des salaires locaux comparables, sous réserve de validation",
+          "Clarifier les conditions de mission, de paiement et de propriété intellectuelle",
+          "Prévoir mentorat et responsabilités croissantes si le temps le permet",
+          "Contribuer aux repères nationaux et aux pratiques de travail"
         ]
       },
       {
         "title": "Pour les États & institutions",
         "text": "Un playbook pour structurer un écosystème tech national de bout en bout.",
         "points": [
-          "Programmes de certification des ingénieurs locaux",
-          "Partenariats universités et incubateurs",
-          "Cadres contractuels alignés sur le droit local",
-          "Rétention de la valeur locale au lieu de la fuite des cerveaux"
+          "Partager des données publiques et des informations de politique fiables",
+          "Examiner les règles locales de travail, d’achat, de fiscalité et de données",
+          "Contribuer à un profil national transparent et révisable",
+          "Signaler les lacunes avant toute comparaison régionale"
         ]
       },
       {
         "title": "Pour les universités & incubateurs",
         "text": "Un pont de l'éducation vers un travail rémunéré et réel.",
         "points": [
-          "Filières d'apprentissage vérifiées avec de vrais clients",
-          "Projets d'essai rémunérés qui testent de vraies compétences",
-          "Un standard de certification sur lequel former",
-          "Un pipeline d'emploi qui garde les diplômés sur place"
+          "Définir des objectifs d’apprentissage pour les premiers postes",
+          "Explorer des projets supervisés avec des conditions claires",
+          "Examiner les capacités de mentorat et les cursus d’ingénierie",
+          "Partager des données sur la transition entre études et emploi"
         ]
       },
       {
         "title": "Pour les agences & freelances",
-        "text": "Adoptez le cadre comme votre propre standard de fonctionnement.",
+        "text": "Utiliser les principes ouverts pour expliquer les pratiques de livraison et les hypothèses commerciales.",
         "points": [
-          "Publiez votre économie pour gagner la confiance",
-          "Accédez à un réseau vérifié sans re-vérifier",
-          "De la capacité grâce au collectif",
-          "Différenciez-vous sur la transparence, pas sur le prix"
+          "Expliquer la formation du budget de projet",
+          "Documenter les adaptations et responsabilités locales",
+          "Inclure du mentorat lorsque le projet le permet",
+          "Partager les retours et les données nationales"
         ]
       }
     ],
     "cta": {
       "title": "Voyez votre propre cas en chiffres",
-      "text": "Ouvrez le simulateur et estimez ce que le modèle représente pour votre contrat, votre équipe ou votre région.",
+      "text": "Modifiez un budget illustratif et observez l’effet des hypothèses de rémunération, de soutien à la livraison et de coûts locaux.",
       "primary": "Ouvrir le simulateur",
-      "secondary": "Rejoindre le collectif"
+      "secondary": "Nous contacter"
     }
   },
   "joinPage": {
-    "title": "Rejoindre le collectif",
-    "subtitle": "Le modèle est ouvert aux entreprises, développeurs, États et institutions qui veulent construire sous les mêmes standards publiés.",
+    "title": "Participer au cadre",
+    "subtitle": "Entreprises, praticiens et institutions peuvent examiner les principes, contribuer des données nationales et proposer une adaptation locale.",
     "companies": {
       "title": "Pour les entreprises",
-      "description": "Adoptez le cadre pour votre ingénierie : talents vérifiés, SDM responsable et économie publiée.",
+      "description": "Étudiez comment ces principes peuvent clarifier le périmètre, les hypothèses de rémunération et les responsabilités de livraison.",
       "points": [
-        "Un besoin d'ingénierie récurrent",
-        "Budget minimum de 1M FCFA par mois (ou équivalent EUR)",
-        "Un décideur identifié",
-        "Engagement envers les standards publiés"
+        "Un projet ou besoin d’ingénierie à discuter",
+        "Le pays et le cadre juridique du travail",
+        "Le périmètre, le budget et les conditions attendues",
+        "Des questions ou retours sur le cadre"
       ]
     },
     "countries": {
       "title": "Pour les pays & institutions",
-      "description": "Adoptez le modèle à l'échelle nationale pour structurer votre écosystème tech autour d'un standard certifié.",
+      "description": "Contribuez au contexte des politiques locales, du marché du travail, des achats publics et des données.",
       "points": [
-        "Certification nationale des ingénieurs",
-        "Partenariats universités et incubateurs",
-        "Cadres contractuels alignés sur le droit local",
-        "Standards par zone de marché, maintenus localement"
+        "Jeux de données et sources publiques fiables",
+        "Règles nationales ou régionales applicables",
+        "Contributeurs locaux et besoins de revue",
+        "Lacunes connues et fréquence de mise à jour"
       ]
     },
     "criteria": {
-      "title": "Critères d'adhésion",
-      "subtitle": "Le collectif reste petit et sérieux. Tout le monde rejoint sous les mêmes règles :",
+      "title": "Préparer la discussion",
+      "subtitle": "Il n’existe pas encore de seuil d’adhésion ni de programme de certification. Voici des points de départ utiles :",
       "items": [
-        "Un besoin d'ingénierie récurrent, pas un projet ponctuel",
-        "Un budget mensuel minimum de 1M FCFA (ou équivalent EUR)",
-        "Un décideur identifié",
-        "Un engagement pour la qualité et le feedback continu"
+        "Une question concrète sur un pays, un projet ou une politique",
+        "Des preuves avec source, date et périmètre",
+        "Un responsable clairement désigné pour tout engagement proposé",
+        "La volonté de documenter limites et retours"
       ]
     },
     "process": {
-      "title": "Comment rejoindre",
+      "title": "Comment participer",
       "steps": [
-        "Soumettez votre organisation par email avec votre contexte et vos besoins.",
-        "Un appel de découverte de 30 minutes avec notre équipe.",
-        "Alignement sur le périmètre, la composition d'équipe et les tarifs.",
-        "Démarrage sous 72 heures après signature."
+        "Présentez le contexte de votre pays ou projet et la question à explorer.",
+        "Consultez le chapitre pertinent et l’état actuel des données.",
+        "Convenez de ce qui peut être partagé et des hypothèses à valider.",
+        "Notez la prochaine étape, son responsable et sa date de mise à jour."
       ]
     },
     "cta": {
-      "title": "Construisons ensemble",
-      "text": "Écrivez-nous pour rejoindre le collectif : entreprise, développeur, incubateur ou institution.",
+      "title": "Rendons le cadre plus utile",
+      "text": "Partagez une source, examinez une hypothèse ou discutons d’une adaptation nationale.",
       "primary": "Nous écrire",
       "secondary": "Lire la documentation"
     },
     "contact": {
       "title": "Démarrez la conversation",
-      "text": "Décrivez-nous votre contexte et vos besoins. Une vraie personne du collectif vous répond sous 72 heures.",
+      "text": "Indiquez votre pays ou région, votre rôle et votre question. Nous préciserons le prochain échange.",
       "placeholder": "vous@entreprise.com",
       "button": "Nous écrire",
       "subject": "Rejoindre le modèle MRVIN100"
@@ -278,7 +350,7 @@
     "subtitle": "Tout ce qu'il faut savoir avant d'adopter le modèle.",
     "contact": {
       "title": "Une question demeure ?",
-      "text": "Écrivez-nous directement, un membre du collectif vous répondra.",
+      "text": "Écrivez-nous directement pour discuter de votre question.",
       "placeholder": "vous@entreprise.com",
       "button": "Poser une question",
       "subject": "Question sur le modèle MRVIN100"
@@ -286,27 +358,27 @@
     "items": [
       {
         "q": "MRVIN100 est-il une entreprise ou un modèle ?",
-        "a": "C'est un modèle publié : un cadre de standards que les entreprises, développeurs, États et institutions peuvent adopter. Le cadre est ouvert et documenté ici en entier, et les standards sont maintenus publiquement par zone de marché."
+        "a": "MRVIN100 est un cadre ouvert pour organiser les talents d’ingénierie africains. Les organisations et praticiens peuvent l’adopter et le faire évoluer. Ce n’est ni une plateforme logicielle ni une place de marché de recrutement entre deux groupes."
       },
       {
-        "q": "Pourquoi 40 % de chaque contrat pour le développeur ?",
-        "a": "Parce que le développeur est celui qui construit. La part de 40 % est le cœur éthique du modèle, publiée et non négociable. Elle attire et retient les talents qui rendent tout le canal fiable."
+        "q": "MRVIN100 impose-t-il une part fixe aux développeurs ?",
+        "a": "Aucun pourcentage fixe n’a été adopté. Le modèle demande une économie de projet transparente et une rémunération étayée par des données locales. Son orientation est de viser la tranche supérieure de 30 % des salaires comparables par pays, métier et expérience ; cette cible nécessite encore une méthode publiée et des données actuelles."
       },
       {
-        "q": "Les prix sont-ils standardisés ?",
-        "a": "Le modèle standardise le cadre, pas une liste de prix unique. Les pourcentages comme les 40 % du développeur et la fourchette de 8 à 12 % du SDM sont fixes. Les prix absolus sont maintenus par zone de marché : ce qui est standard en Afrique centrale peut différer de l'Afrique de l'Ouest ou de l'Europe."
+        "q": "Le modèle garantit-il des prix plus bas que les prestataires offshore ?",
+        "a": "Non. MRVIN100 invite les organisations à comparer le périmètre, le coût total, le contexte local, la responsabilité et la qualité. Les prix dépendent du travail, du pays, de l’expérience et du contrat. Le cadre vise à rendre les hypothèses visibles, pas à promettre une remise."
       },
       {
-        "q": "Qu'est-ce que le Success Delivery Manager (SDM) ?",
-        "a": "Votre interlocuteur unique, responsable de la coordination, de la planification des sprints, des rapports hebdomadaires, des escalades et des jalons qualité. Un SDM gère au maximum cinq projets à la fois, donc la qualité de service est plafonnée par conception."
+        "q": "Chaque projet a-t-il besoin d’un responsable de livraison ?",
+        "a": "Non. Chaque collaboration doit désigner les personnes responsables de la planification, des décisions techniques, des revues, de la communication, de l’acceptation et du transfert. Un coordinateur peut aider si le travail le nécessite, mais MRVIN100 n’impose actuellement ni rôle précis ni limite de projets."
       },
       {
-        "q": "Comment fonctionne la norme de remplacement sous 72 heures ?",
-        "a": "Si un développeur sous-performe ou devient indisponible, un profil de remplacement est présenté sous 72 heures, avec une période de transfert de connaissances rémunérée pour que le projet ne s'arrête jamais. Sans négociation, sans facture supplémentaire."
+        "q": "Existe-t-il une garantie de délai de remplacement ?",
+        "a": "Aucun délai de remplacement commun n’a été adopté. Toute disponibilité, remplacement ou solution doit être convenu dans le contrat du projet et vérifié au regard du droit local."
       },
       {
-        "q": "Puis-je commencer à temps partiel puis passer à temps plein ?",
-        "a": "Oui. C'est le parcours standard : commencez à temps partiel (80h/mois par développeur) pour valider la collaboration, puis passez à temps plein. Votre développeur, votre SDM et vos outils restent identiques."
+        "q": "Les profils pays sont-ils complets ?",
+        "a": "Non. L’atlas cartographie les pays, mais une frontière affichée ne signifie pas que les données du marché ou l’adoption locale ont été validées. Chaque profil doit publier des sources datées et indiquer clairement les preuves manquantes."
       }
     ]
   },
@@ -321,12 +393,14 @@
     "backToModel": "Retour à la vue d'ensemble du modèle"
   },
   "footer": {
-    "tagline": "Le Modèle MRVIN100. Un cadre ouvert pour l'ingénierie africaine : économie publiée, part équitable au développeur, livraison responsable et standards par zone de marché.",
-    "locations": "Berlin · Yaoundé · Conakry",
+    "tagline": "MRVIN100 construit un cadre ouvert et adapté aux pays pour organiser les talents d’ingénierie africains et développer les capacités locales.",
+    "locations": "Ancré dans les pays · Fondé sur des sources · Ouvert aux retours",
+    "socialLabel": "Profils sociaux MRVIN100",
+    "socialNote": "Ces icônes sont une prévisualisation. Les liens officiels seront ajoutés lorsque les profils auront été confirmés.",
+    "emailLabel": "Écrivez-nous",
+    "emailNote": "Partagez une source nationale, une question ou un retour sur le cadre.",
     "email": "mrvin100mail@gmail.com",
-    "phones": "+237 658 778 110 (CM) · +224 614 179 276 (GN)",
-    "navTitle": "Le modèle",
-    "contactTitle": "Contact",
+    "contactTitle": "Ouvrir la discussion",
     "rights": "© 2026 MRVIN100. Tous droits réservés."
   },
   "common": {

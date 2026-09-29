@@ -26,10 +26,10 @@ export function ContactBand({
   return (
     <div className="flex flex-col items-center gap-6 text-center">
       <div className="flex flex-col items-center gap-3">
-        <h2 className="text-balance text-2xl font-semibold tracking-tight sm:text-3xl">
+        <h2 className="text-2xl font-semibold tracking-tight text-balance sm:text-3xl">
           {title}
         </h2>
-        <p className="max-w-xl text-pretty text-sm leading-relaxed text-muted-foreground sm:text-base">
+        <p className="max-w-xl text-sm leading-relaxed text-pretty text-muted-foreground sm:text-base">
           {text}
         </p>
       </div>
@@ -44,12 +44,12 @@ export function ContactBand({
           bend={20}
           height={58}
           cornerRadius={16}
-          backgroundColor={dark ? "#141a17" : "#ffffff"}
-          textColor={dark ? "#f0f7f3" : "#14201a"}
-          placeholderColor={dark ? "#7f9188" : "#9aa8a0"}
-          borderColor={dark ? "#2c3a33" : "#cad6cf"}
-          buttonColor={dark ? "#e8b84b" : "#10a06f"}
-          buttonTextColor={dark ? "#1b1303" : "#ffffff"}
+          backgroundColor={dark ? "#171717" : "#ffffff"}
+          textColor={dark ? "#f5f5f5" : "#202020"}
+          placeholderColor={dark ? "#8a8a8a" : "#888888"}
+          borderColor={dark ? "#404040" : "#d4d4d4"}
+          buttonColor={dark ? "#f5f5f5" : "#202020"}
+          buttonTextColor={dark ? "#202020" : "#ffffff"}
           shadowColor="#000000"
           shadowSize="md"
           onSubmit={(value) => {

@@ -1,75 +1,39 @@
 ---
-title: Market zones and standards
-description: How the framework stays universal while prices, contracts and criteria adapt per market zone.
+title: Countries, regions and local standards
+description: A consistent country-code structure for evidence that respects different African markets.
 order: 8
 ---
 
-The MRVIN100 model is a framework, and a framework must be stable where it matters and adaptable where reality differs. That is the role of market zones: the universal rules stay universal, and the local parameters are maintained per zone, transparently and publicly.
+African countries do not share one labor market, currency, legal system or cost base. MRVIN100 should preserve a shared framework while making each country’s conditions visible.
 
-## Why zones exist
+## Country identifiers
 
-A company in Central Africa, a state in West Africa and a client in Europe do not share the same currency, cost of living, legal system or talent pool. Forcing one absolute price list on all of them would either price out local adopters or underpay developers.
+Each country profile uses a stable two-letter country code, such as CM for Cameroon. Names can be localized, but the identifier remains the key for joining data, maps and revisions. The map is a geographic index, not proof that market evidence has been collected.
 
-The model solves this by separating two things:
+## Build country profiles before regional totals
 
-- **The framework:** percentages, roles, guarantees and criteria. One set, published, valid everywhere.
-- **Zone standards:** absolute prices, currency conventions, legal templates, SLA variants and certification criteria. Maintained per zone.
+A country profile may include:
 
-## The framework, constant everywhere
+- Engineering roles, skills, experience and workforce estimates
+- Comparable pay ranges by role and seniority
+- Employer demand and job-posting signals
+- Digital-sector revenue and value added
+- Measured value enabled in other sectors
+- Currency and exchange-rate conventions
+- Labor, tax, procurement and data rules
+- Source dates, coverage, confidence and known gaps
 
-These do not change from zone to zone:
+Each measure needs a clear definition. Online vacancy counts are not the same thing as all hiring demand, and a mobile-economy estimate is not software-sector revenue.
 
-- 40% of every contract goes to the developer
-- SDM share within 8 to 12%, tied to complexity
-- Agent share within 3 to 7%
-- The 72-hour replacement standard
-- The five-step vetting process
-- The SDM five-project cap
-- The membership criteria
+## Regional views
 
-## Zone standards, maintained per zone
+Regional pages can summarize countries only when the indicators are comparable and the missing data are visible. A regional total should disclose which countries and years it covers. It should not silently treat absent country data as zero or extrapolate from a few countries to the whole region.
 
-Each zone publishes and maintains its own set of parameters under the framework:
+## The continent view
 
-| Parameter | Example of variation |
-| --- | --- |
-| Reference hourly rates by level | Central Africa vs West Africa vs Europe |
-| Currency conventions | FCFA zones, EUR zones, other monetary areas |
-| Cost-of-living adjustments | baseline for the developer share |
-| SLA variants | never below the framework minimum |
-| Legal and contract templates | aligned with local law |
-| Certification criteria | adapted to local education systems |
+An Africa-wide estimate should state its formula, coverage, source version, uncertainty and update date. Direct digital-sector value should remain distinct from economic value enabled in sectors such as finance, health, agriculture and public services. These categories should not be added together unless a defensible method prevents double counting.
 
-A parameter in the framework cannot be changed by a zone. A zone standard can only change through the zone's published maintenance process.
+## Sources and maintenance
 
-## How standards are maintained
+Prefer national statistical agencies, central banks, ministries, regulators, multilateral datasets and peer-reviewed or clearly documented research. Commercial datasets can add useful signals but need a description of coverage and bias. Every profile should show source links and a last-reviewed date.
 
-Standards are living documents. The maintenance process is public:
-
-1. **Proposal.** A change to a zone standard is proposed with a rationale and data.
-2. **Review.** Adopters of the zone are consulted; the developer pact is never weakened.
-3. **Versioning.** The change is published with a version number, a date and the previous value.
-4. **Migration.** Current contracts keep their signed terms; new contracts use the new standard.
-
-Nothing changes silently. Every update is visible in this documentation and in the zone's published standards.
-
-## Zone examples
-
-To illustrate, two zones might publish different reference rates for the same seniority level, because the cost bases differ:
-
-| Seniority | Zone A (Central Africa) | Zone B (West Africa) |
-| --- | --- | --- |
-| Junior | 15,000 FCFA / h | 18,000 FCFA / h |
-| Middle | 25,000 FCFA / h | 30,000 FCFA / h |
-| Senior | 40,000 FCFA / h | 48,000 FCFA / h |
-
-The percentages stay identical. The absolute values adapt. Both are published, so everyone can verify both.
-
-## Why this matters for adopters
-
-- **Predictability:** you know which rules are universal and which are local
-- **Fairness:** zones cannot exploit their position to underpay developers
-- **Transparency:** every standard, every version, is public
-- **Scale:** the model can expand across the continent without losing its principles
-
-Next chapter: [join the model](/en/model/09-join-the-model), for companies, developers, countries and institutions.

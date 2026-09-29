@@ -1,18 +1,10 @@
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
-import { Geist_Mono, Inter } from "next/font/google"
 
 import "../globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { getDictionary } from "@/lib/i18n/dictionaries"
 import { isLocale, locales, siteUrl } from "@/lib/i18n/config"
-
-const inter = Inter({ subsets: ["latin"], variable: "--font-sans" })
-
-const fontMono = Geist_Mono({
-  subsets: ["latin"],
-  variable: "--font-mono",
-})
 
 // Everything is static: one prerendered page per locale.
 export async function generateStaticParams() {
@@ -54,11 +46,7 @@ export default async function RootLayout({
   if (!isLocale(lang)) notFound()
 
   return (
-    <html
-      lang={lang}
-      suppressHydrationWarning
-      className={`antialiased ${inter.variable} ${fontMono.variable}`}
-    >
+    <html lang={lang} suppressHydrationWarning className="antialiased">
       <body className="flex min-h-svh flex-col font-sans">
         <ThemeProvider>{children}</ThemeProvider>
       </body>

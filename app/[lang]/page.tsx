@@ -36,7 +36,6 @@ export default async function HomePage({ params }: PageProps) {
     url: siteUrl,
     email: "mrvin100mail@gmail.com",
     description: dict.meta.description,
-    location: ["Berlin", "Yaoundé", "Conakry"],
   }
 
   const websiteJsonLd = {

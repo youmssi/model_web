@@ -36,7 +36,7 @@ export default async function SimulatorPage({ params }: PageProps) {
         subtitle={dict.simulatorPage.subtitle}
       />
       <div className="mt-12">
-        <Simulator t={dict.simulatorPage} />
+        <Simulator locale={lang} t={dict.simulatorPage} />
       </div>
     </section>
   )

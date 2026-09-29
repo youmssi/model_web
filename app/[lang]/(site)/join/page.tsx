@@ -6,7 +6,6 @@ import { Building2, Check, Globe2 } from "lucide-react"
 import { AnimatedContent } from "@/components/AnimatedContent"
 import { ContactBand } from "@/components/marketing/contact-band"
 import { SectionHeading } from "@/components/marketing/section-heading"
-import SpotlightCard from "@/components/SpotlightCard"
 import { Button } from "@/components/ui/button"
 import { JsonLd } from "@/components/json-ld"
 import { getDictionary } from "@/lib/i18n/dictionaries"
@@ -17,7 +16,9 @@ interface PageProps {
   params: Promise<{ lang: string }>
 }
 
-export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
   const { lang } = await params
   if (!isLocale(lang)) notFound()
   const dict = getDictionary(lang)
@@ -54,7 +55,7 @@ export default async function JoinPage({ params }: PageProps) {
     <>
       <JsonLd data={joinJsonLd} />
 
-      <section className="mx-auto w-full max-w-6xl px-4 pb-16 pt-16 sm:pt-20">
+      <section className="mx-auto w-full max-w-6xl px-4 pt-16 pb-16 sm:pt-20">
         <SectionHeading
           as="h1"
           title={dict.joinPage.title}
@@ -67,16 +68,13 @@ export default async function JoinPage({ params }: PageProps) {
           {audiences.map((audience, index) => (
             <AnimatedContent
               key={audience.data.title}
-              distance={40}
-              duration={0.6}
+              distance={14}
+              duration={0.45}
               delay={index * 0.1}
               className="h-full"
             >
-              <SpotlightCard
-                className="flex h-full flex-col gap-4 rounded-2xl p-6 sm:p-8"
-                spotlightColor="rgba(16, 160, 111, 0.14)"
-              >
-                <span className="flex size-10 items-center justify-center rounded-md bg-primary/10 text-primary">
+              <article className="flex h-full flex-col gap-4 rounded-2xl border border-border bg-card p-6 sm:p-8">
+                <span className="flex size-10 items-center justify-center rounded-md bg-muted text-foreground">
                   <audience.icon className="size-5" />
                 </span>
                 <h2 className="text-lg font-semibold tracking-tight">
@@ -96,7 +94,7 @@ export default async function JoinPage({ params }: PageProps) {
                     </li>
                   ))}
                 </ul>
-              </SpotlightCard>
+              </article>
             </AnimatedContent>
           ))}
         </div>

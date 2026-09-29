@@ -18,7 +18,9 @@ export async function generateStaticParams() {
   return getDocSlugs("en").map((slug) => ({ slug }))
 }
 
-export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
   const { lang, slug } = await params
   if (!isLocale(lang)) notFound()
   const meta = getDocMeta(lang, slug)
@@ -43,53 +45,56 @@ export default async function DocChapterPage({ params }: PageProps) {
   const { prev, next } = getDocNeighbours(lang, slug)
 
   return (
-    <article className="mx-auto max-w-3xl">
-      <header className="pb-10">
-        <span className="inline-flex items-center gap-1.5 rounded-full border px-3 py-1 text-xs font-medium text-muted-foreground">
-          <span aria-hidden="true" className="size-1.5 rounded-full bg-gold" />
-          {dict.docs.label}
-        </span>
-        <h1 className="mt-4 text-balance text-3xl font-semibold tracking-tight sm:text-4xl">
-          {meta.title}
-        </h1>
-        {meta.description ? (
-          <p className="mt-4 text-pretty text-sm leading-relaxed text-muted-foreground sm:text-base">
-            {meta.description}
-          </p>
-        ) : null}
-      </header>
+    <article className="mx-auto w-full max-w-7xl px-5 py-8 sm:px-8 sm:py-12 lg:px-10 lg:py-14">
+      <div className="mx-auto max-w-3xl">
+        <header className="pb-10">
+          <span className="inline-flex items-center gap-1.5 rounded-full border px-3 py-1 text-xs font-medium text-muted-foreground">
+            {dict.docs.label}
+          </span>
+          <h1 className="mt-4 font-serif text-4xl font-medium tracking-tight text-balance sm:text-5xl">
+            {meta.title}
+          </h1>
+          {meta.description ? (
+            <p className="mt-4 text-sm leading-relaxed text-pretty text-muted-foreground sm:text-base">
+              {meta.description}
+            </p>
+          ) : null}
+        </header>
 
-      <div className="prose prose-neutral dark:prose-invert max-w-none prose-headings:tracking-tight prose-a:font-medium prose-a:text-primary prose-a:no-underline hover:prose-a:underline">
-        <Content />
+        <div className="mx-auto prose mt-4 max-w-3xl prose-neutral dark:prose-invert prose-headings:font-serif prose-headings:font-medium prose-headings:tracking-tight prose-a:font-medium prose-a:text-foreground prose-a:underline-offset-4">
+          {/* The registry maps these slugs to statically imported MDX components. */}
+          {/* eslint-disable-next-line react-hooks/static-components */}
+          <Content />
+        </div>
+
+        <nav
+          aria-label={dict.docs.sidebarTitle}
+          className="mx-auto mt-16 flex max-w-3xl flex-col gap-3 border-t border-border pt-8 sm:flex-row sm:justify-between"
+        >
+          {prev ? (
+            <Link
+              href={localePath(lang, `model/${prev.slug}`)}
+              className="group flex items-center gap-2 rounded-lg border border-border/60 px-4 py-3 text-sm transition-colors outline-none hover:bg-muted/50 focus-visible:ring-2 focus-visible:ring-ring/40"
+            >
+              <ArrowLeft className="size-4 shrink-0 text-muted-foreground transition-transform group-hover:-translate-x-0.5" />
+              <span className="min-w-0 truncate font-medium">{prev.title}</span>
+            </Link>
+          ) : (
+            <span className="hidden sm:block" />
+          )}
+          {next ? (
+            <Link
+              href={localePath(lang, `model/${next.slug}`)}
+              className="group flex items-center justify-between gap-2 rounded-lg border border-border/60 px-4 py-3 text-sm transition-colors outline-none hover:bg-muted/50 focus-visible:ring-2 focus-visible:ring-ring/40 sm:justify-end sm:text-right"
+            >
+              <span className="min-w-0 truncate font-medium">{next.title}</span>
+              <ArrowRight className="size-4 shrink-0 text-muted-foreground transition-transform group-hover:translate-x-0.5" />
+            </Link>
+          ) : (
+            <span className="hidden sm:block" />
+          )}
+        </nav>
       </div>
-
-      <nav
-        aria-label={dict.docs.sidebarTitle}
-        className="mt-16 flex flex-col gap-3 border-t border-border/60 pt-8 sm:flex-row sm:justify-between"
-      >
-        {prev ? (
-          <Link
-            href={localePath(lang, `model/${prev.slug}`)}
-            className="group flex items-center gap-2 rounded-lg border border-border/60 px-4 py-3 text-sm transition-colors outline-none hover:bg-muted/50 focus-visible:ring-2 focus-visible:ring-ring/40"
-          >
-            <ArrowLeft className="size-4 shrink-0 text-muted-foreground transition-transform group-hover:-translate-x-0.5" />
-            <span className="min-w-0 truncate font-medium">{prev.title}</span>
-          </Link>
-        ) : (
-          <span className="hidden sm:block" />
-        )}
-        {next ? (
-          <Link
-            href={localePath(lang, `model/${next.slug}`)}
-            className="group flex items-center justify-between gap-2 rounded-lg border border-border/60 px-4 py-3 text-sm transition-colors outline-none hover:bg-muted/50 focus-visible:ring-2 focus-visible:ring-ring/40 sm:justify-end sm:text-right"
-          >
-            <span className="min-w-0 truncate font-medium">{next.title}</span>
-            <ArrowRight className="size-4 shrink-0 text-muted-foreground transition-transform group-hover:translate-x-0.5" />
-          </Link>
-        ) : (
-          <span className="hidden sm:block" />
-        )}
-      </nav>
     </article>
   )
 }
