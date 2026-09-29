@@ -6,10 +6,10 @@ export default function NotFound() {
     <section className="mx-auto flex w-full max-w-6xl flex-col items-center gap-4 px-4 py-28 text-center">
       <p className="font-mono text-sm text-gold">404</p>
       <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">
-        Page introuvable — Page not found
+        Page introuvable / Page not found
       </h1>
       <p className="max-w-md text-sm text-muted-foreground">
-        Cette page n&apos;existe pas ou a été déplacé. — This page does not
+        Cette page n&apos;existe pas ou a été déplacée. / This page does not
         exist or has been moved.
       </p>
       <div className="flex gap-3">

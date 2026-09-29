@@ -17,7 +17,7 @@ interface LangSwitcherProps {
   label: string
 }
 
-/** Swap the locale prefix of the current path, e.g. /fr/pricing -> /en/pricing. */
+/** Swap the locale prefix of the current path, e.g. /fr/join -> /en/join. */
 function swapLocale(pathname: string, next: Locale): string {
   const segments = pathname.split("/")
   segments[1] = next

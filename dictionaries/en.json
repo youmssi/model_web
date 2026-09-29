@@ -1,264 +1,391 @@
 {
   "meta": {
     "siteName": "MRVIN100",
-    "title": "MRVIN100 — World-class engineering, built for Africa",
-    "description": "The MRVIN100 model: dedicated engineering teams from a vetted African network, managed by a Success Delivery Manager, with transparent pricing and a 72-hour replacement guarantee."
+    "title": "African Engineering, Organized for Sustainable Growth | MRVIN100",
+    "description": "An open, country-adapted framework for organizing African engineering talent, supporting fair work, stronger delivery, mentorship and local capability."
   },
   "nav": {
     "home": "Home",
     "model": "The Model",
-    "pricing": "Pricing",
+    "simulator": "Simulator",
+    "useCases": "Use cases",
     "faq": "FAQ",
     "join": "Join",
-    "bookCall": "Book a call",
+    "bookCall": "Adopt the framework",
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
     "language": "Change language",
-    "theme": "Toggle theme"
+    "theme": "Toggle theme",
+    "countryMap": "Country atlas",
+    "evidence": "Evidence",
+    "framework": "Framework",
+    "adoption": "Adoption",
+    "compare": "Compare",
+    "contact": "Contact"
   },
   "home": {
+    "logoCloud": {
+      "title": "An open framework for",
+      "actors": ["Companies", "Agencies", "Public institutions", "Developer networks"]
+    },
     "hero": {
-      "badge": "The MRVIN100 Model",
-      "titleLine1": "World-class engineering talent,",
-      "titleAccent": "built for Africa",
-      "subtitle": "Dedicated engineering teams that understand your market, your operations and your timezone. International-grade delivery without the offshore compromise.",
-      "primaryCta": "Join the model",
-      "secondaryCta": "Read the documentation"
+      "badge": "A framework for African engineering capacity",
+      "titleLine1": "African engineering talent,",
+      "titleAccent": "organized to grow.",
+      "subtitle": "MRVIN100 is building a country-adapted framework that helps organizations work with African engineers, grow capability locally and make the economics clear.",
+      "primaryCta": "Explore the atlas",
+      "secondaryCta": "How the framework works",
+      "trustItems": [
+        "Country-adapted",
+        "Transparent by design",
+        "Open to adoption"
+      ]
     },
-    "trusted": {
-      "label": "They trusted our talent",
-      "subtext": "The engineers in our network have delivered for leading institutions across Cameroon and beyond.",
-      "ariaLabel": "Organizations that trusted MRVIN100 talent"
+    "atlas": {
+      "eyebrow": "Explore Africa, country by country",
+      "title": "One continent. Distinct country realities.",
+      "description": "Select a country to explore its profile. Each profile will be built from dated, traceable local evidence; a mapped boundary does not mean its economic data is already published.",
+      "coverage": "54 country boundaries",
+      "searchLabel": "Find a country",
+      "searchPlaceholder": "Search by name or country code",
+      "regionLabel": "Browse by region",
+      "allRegions": "All regions",
+      "regions": {
+        "north": "North Africa",
+        "west": "West Africa",
+        "central": "Central Africa",
+        "east": "East Africa",
+        "south": "Southern Africa"
+      },
+      "selectedCountry": "Selected country",
+      "viewProfile": "Open country profile",
+      "initialBadge": "Starting profile",
+      "preparingBadge": "Evidence in preparation",
+      "profileTitle": "Country profile",
+      "initialProfileText": "Cameroon is the starting profile. We will publish country details as local sources are collected and checked.",
+      "preparingProfileText": "This country is mapped. Its evidence profile will be published as reliable local sources are collected and checked.",
+      "profileStatusTitle": "The country evidence is being assembled",
+      "profileStatusText": "No country-level market figures are shown here yet. The profile will separate published statistics, estimates and scenarios.",
+      "topicsTitle": "What each profile will cover",
+      "topics": [
+        "Engineering talent and experience",
+        "Employer needs and pay benchmarks",
+        "Digital-sector value and adoption",
+        "Value enabled across other sectors",
+        "Local regulation and operating conditions"
+      ],
+      "contributionCta": "Contribute local evidence",
+      "countryListLabel": "Browse all countries",
+      "noResults": "No countries match this search.",
+      "mapLabel": "Interactive map of the 54 African United Nations member states",
+      "sourceAttribution": "Map boundaries adapted from @svg-maps/world 2.0.0 by Victor Cazanave, CC BY 4.0.",
+      "boundaryNote": "Country outlines are for geographic orientation; figures will come from separately cited sources.",
+      "regionCount": "Regional groupings"
     },
-    "how": {
-      "label": "How it works",
-      "title": "From brief to delivery in 4 steps",
-      "subtitle": "A structured process for enterprise teams that eliminates friction and guarantees timely delivery.",
+    "evidence": {
+      "eyebrow": "Evidence before claims",
+      "title": "A clear source behind every figure.",
+      "description": "The overview keeps direct digital-sector value separate from value enabled in other sectors. Every figure includes its year, scope, source and limitations.",
+      "contextLabel": "Economic context",
+      "items": [
+        {
+          "value": "$240B",
+          "qualifier": "2025 · 7.8% of GDP",
+          "title": "Mobile technologies and services",
+          "text": "GSMA estimates the mobile ecosystem’s contribution to Africa’s economy. This is broad digital-economy context, not software-engineering revenue.",
+          "source": "GSMA · Mobile Economy Africa 2026",
+          "href": "https://www.gsma.com/newsroom/press-release/mobile-technologies-contributed-240-billion-to-africas-economy-in-2025-as-the-continent-enters-a-new-phase-of-digital-transformation/"
+        },
+        {
+          "value": "4.9M",
+          "qualifier": "Jan 2020–Aug 2024 · 4 countries",
+          "title": "Online job postings analysed",
+          "text": "A World Bank study examined postings from Kenya, Nigeria, South Africa and Uganda. Online postings overrepresent formal, higher-skilled roles and do not equal software vacancies.",
+          "source": "World Bank · Digital Skills for Africa",
+          "href": "https://documents1.worldbank.org/curated/en/099746512082541920/pdf/IDU-dcae1207-ed6e-4383-9c7f-1f2b2dbae522.pdf"
+        },
+        {
+          "value": "13M",
+          "qualifier": "2025 · GSMA estimate",
+          "title": "Jobs supported by the mobile ecosystem",
+          "text": "The GSMA estimates the mobile ecosystem supported about 13 million jobs across Africa in 2025. This is a broad digital-economy indicator, not a developer headcount.",
+          "source": "GSMA · Mobile Economy Africa 2026",
+          "href": "https://www.gsma.com/solutions-and-impact/connectivity-for-good/mobile-economy/africa/"
+        }
+      ],
+      "distinctionTitle": "Two kinds of value. Two separate measures.",
+      "directTitle": "Value generated directly",
+      "directText": "Revenue and value added from software, digital services and technology businesses.",
+      "enabledTitle": "Value enabled in other sectors",
+      "enabledText": "Measured changes in cost, productivity, access or service quality when organizations use digital systems.",
+      "methodNote": "We will not turn a mobile-economy estimate or a single project result into a continent-wide software-market figure."
+    },
+    "framework": {
+      "eyebrow": "The framework",
+      "title": "Shared principles. Country-specific practice.",
+      "description": "The framework sets clear commitments and allows local maintainers to adapt implementation to laws, currencies, labor markets and operating realities.",
+      "readMore": "Read the framework",
+      "principles": [
+        {
+          "title": "Fair, local compensation",
+          "text": "Aim for compensation in the upper 30% of comparable country-specific salary ranges, using recent local evidence and publishing the method."
+        },
+        {
+          "title": "Capability grows through work",
+          "text": "Pair real delivery with structured mentorship from experienced engineers to early-career talent."
+        },
+        {
+          "title": "Transparent economics",
+          "text": "Show how pricing supports engineer compensation, delivery, mentorship and sustainable operations."
+        },
+        {
+          "title": "Quality and accountability",
+          "text": "Set clear expectations for scope, communication, delivery, feedback and how problems are resolved."
+        },
+        {
+          "title": "Local adaptation, open governance",
+          "text": "Keep a shared core, publish country addenda, record changes and invite feedback from practitioners."
+        }
+      ],
+      "statusNote": "The upper-30% pay position is a target to validate country by country, not a published salary guarantee. Rules and benchmarks require dated local sources."
+    },
+    "adoption": {
+      "eyebrow": "Open to adoption",
+      "title": "A framework others can shape and use.",
+      "description": "Companies, agencies, public institutions and developer networks can explore the framework and help adapt it. Adoption is voluntary; using the MRVIN100 name should require a clear, published commitment.",
+      "stagesTitle": "A transparent path to recognition",
+      "stages": [
+        {
+          "title": "Self-declared",
+          "text": "An organization publishes the principles it says it follows."
+        },
+        {
+          "title": "Reviewed",
+          "text": "Evidence is checked against public criteria, with the review date shown."
+        },
+        {
+          "title": "Local maintainer",
+          "text": "Practitioners help maintain a country annex through a documented process."
+        }
+      ],
+      "directoryNote": "A public adopter directory is a future step. No organization will be listed as an adopter without its consent.",
+      "cta": "Help shape the framework"
+    },
+    "roadmap": {
+      "eyebrow": "Build the evidence, then scale",
+      "title": "A practical path from Cameroon to a continental view.",
       "steps": [
         {
-          "title": "Tell us your needs",
-          "text": "Share your project, stack and timeline. We qualify your request within 72 hours."
+          "title": "Publish the method",
+          "text": "Define indicators, source rules, confidence labels and how estimates are calculated."
         },
         {
-          "title": "We match your team",
-          "text": "We select the right profiles from our vetted, Cameroon-based network of engineers."
+          "title": "Build country profiles",
+          "text": "Start with Cameroon, then add countries as local evidence is validated."
         },
         {
-          "title": "Your SDM takes over",
-          "text": "Your Success Delivery Manager handles daily coordination, sprints and progress reports."
+          "title": "Compare regions carefully",
+          "text": "Create regional views from compatible country data and publish coverage gaps."
         },
         {
-          "title": "Deliver with confidence",
-          "text": "Weekly reports, bi-weekly demos and a 72-hour replacement guarantee on every contract."
+          "title": "Open the playground and adopter directory",
+          "text": "Let people test transparent assumptions and share reviewed implementations."
         }
       ]
-    },
-    "pillars": {
-      "label": "Why MRVIN100",
-      "title": "Infrastructure, not outsourcing",
-      "subtitle": "Three commitments make the model work — for clients and for developers.",
-      "items": [
-        {
-          "title": "Same timezone",
-          "text": "CET/WAT alignment means real-time collaboration with your team. No lag, no overnight hand-offs, no friction."
-        },
-        {
-          "title": "Radical transparency",
-          "text": "40% of every contract goes directly to the developer — published publicly and non-negotiable."
-        },
-        {
-          "title": "72-hour guarantee",
-          "text": "A replacement is guaranteed within 72 hours on every contract. No exceptions, no extra invoice."
-        }
-      ]
-    },
-    "stats": {
-      "label": "The numbers",
-      "items": [
-        { "value": 40, "prefix": "", "suffix": "%", "label": "of every contract goes to the developer" },
-        { "value": 72, "prefix": "", "suffix": "h", "label": "replacement guarantee on every contract" },
-        { "value": 30, "prefix": "", "suffix": "%+", "label": "savings compared to offshore dependency" },
-        { "value": 97, "prefix": "", "suffix": "%", "label": "on-time delivery rate" }
-      ]
-    },
-    "pricingPreview": {
-      "label": "Plans & pricing",
-      "title": "Simple, transparent pricing",
-      "subtitle": "Dedicated developer + Success Delivery Manager + 72h replacement guarantee. No hidden fees.",
-      "cta": "See all rates"
     },
     "cta": {
-      "title": "Ready to build with African excellence?",
-      "text": "Book a free 30-minute discovery call. No commitment, no pressure — just a conversation about your engineering needs.",
-      "primary": "Book a free call",
-      "secondary": "Explore the model"
+      "title": "Help build a framework people can trust.",
+      "text": "Contribute country evidence, review a local annex or explore how your organization could apply the principles.",
+      "primary": "Join the conversation",
+      "secondary": "Explore country data"
     }
   },
-  "pricingPage": {
-    "title": "Plans & pricing",
-    "subtitle": "Dedicated developer + Success Delivery Manager + 72h replacement guarantee. No hidden fees.",
-    "rates": {
-      "label": "Reference rates",
-      "title": "Hourly rates in FCFA",
-      "subtitle": "Reference hourly rates used for custom quotes and FCFA-denominated projects.",
-      "columns": ["Level", "Hourly rate", "Typical profile"],
-      "rows": [
-        ["Junior", "15,000 FCFA / h", "Startups, MVPs, maintenance"],
-        ["Middle", "25,000 FCFA / h", "Product development, feature teams"],
-        ["Senior", "40,000 FCFA / h", "Enterprise systems, complex integrations"]
-      ]
-    },
-    "packages": {
-      "label": "Team packages",
-      "title": "Clear team packages",
-      "subtitle": "Billed in EUR, per developer on a part-time basis (80h/month). Extendable to full-time.",
-      "period": "per part-time (80h)",
-      "items": [
-        {
-          "name": "Starter",
-          "badge": "",
-          "price": "€1,500",
-          "description": "1 dedicated developer (Junior or Middle) + SDM. Perfect for startups and MVPs.",
-          "features": [
-            "Dedicated Junior or Middle developer",
-            "Success Delivery Manager included",
-            "Weekly progress reports",
-            "72-hour replacement guarantee",
-            "Agile sprints (2-week cycles)",
-            "Discord + GitHub + Google Meet access",
-            "Same timezone (CET/WAT)"
-          ],
-          "cta": "Get started"
-        },
-        {
-          "name": "Populaire",
-          "badge": "Popular",
-          "price": "€3,000",
-          "description": "1 Middle + 2 Juniors + a dedicated SDM. Best value for growing product teams.",
-          "features": [
-            "1 Middle + 2 Junior developers",
-            "Dedicated Success Delivery Manager",
-            "25% discount vs individual rates",
-            "Bi-weekly stakeholder demos",
-            "Sprint retrospectives & optimization",
-            "All Starter features included",
-            "Priority issue escalation"
-          ],
-          "cta": "Book a call"
-        },
-        {
-          "name": "Premium",
-          "badge": "",
-          "price": "€4,500",
-          "description": "Custom senior/niche teams + CEO oversight. For complex enterprise projects.",
-          "features": [
-            "Custom senior & niche team composition",
-            "CEO monthly strategic reviews",
-            "Architecture consulting & advisory",
-            "Priority support (4h response SLA)",
-            "Custom CI/CD & infrastructure setup",
-            "All Populaire features included",
-            "Dedicated project environments"
-          ],
-          "cta": "Get started"
-        }
-      ]
-    },
-    "custom": {
-      "title": "Have a specific budget?",
-      "subtitle": "Share your project and constraints. We design the right team for you — no commitment required.",
-      "steps": [
-        "You describe your project and share your maximum budget.",
-        "Our team analyses the scope and designs the right team composition.",
-        "We send you a tailored proposal within 48 hours — no obligation."
-      ],
-      "note": "We maintain a minimum 8% margin on all custom projects. If your budget doesn't fit, we'll tell you honestly.",
-      "cta": "Submit your project & budget"
+  "simulatorPage": {
+    "title": "Pricing playground",
+    "subtitle": "Explore how a proposed engineering budget could be allocated. Enter your own assumptions for engineer pay, delivery support and local costs; nothing here is a fixed MRVIN100 price or required split.",
+    "inputsTitle": "Enter a scenario",
+    "inputsNote": "Start with the total budget, then enter the amounts you intend to allocate. The remaining value or over-budget amount updates as you edit.",
+    "currencyLabel": "Currency",
+    "budgetLabel": "Total project budget",
+    "engineersLabel": "Engineer compensation",
+    "deliveryLabel": "Delivery, mentorship and quality support",
+    "localCostsLabel": "Taxes, payment and other local costs",
+    "sourceNote": "The example values are only there to demonstrate the arithmetic. Replace them with current country and role evidence before using a scenario in a real decision.",
+    "resultEyebrow": "Scenario total",
+    "overBudget": "Over budget",
+    "remaining": "Unallocated / remaining",
+    "allocationLabel": "Proposed allocation of the project budget",
+    "disclaimer": "Illustrative calculator only. It does not verify salary fairness, estimate a market price, create a quote or represent an adopted MRVIN100 allocation rule."
+  },
+  "useCasesPage": {
+    "title": "Use cases",
+    "subtitle": "MRVIN100 is intended to help different actors organize engineering work and grow local capability. These are intended contributions, not measured outcomes or guarantees.",
+    "areas": [
+      {
+        "title": "For the continent",
+        "text": "Strengthening the conditions for African engineers and organizations to build more useful technology locally.",
+        "points": [
+          "Creates more opportunities to apply engineering skills to local needs",
+          "Builds professional experience through real projects",
+          "Makes compensation and delivery assumptions easier to inspect",
+          "Supports mentorship and knowledge sharing where capacity allows"
+        ]
+      },
+      {
+        "title": "For companies",
+        "text": "A way to make scope, local context, pricing assumptions and delivery responsibilities clearer.",
+        "points": [
+          "Compare local and international delivery options using the same scope",
+          "Understand compensation, support costs, taxes and exclusions",
+          "Agree who owns planning, review, communication and handover",
+          "Adapt the engagement to country law, currency and context"
+        ]
+      },
+      {
+        "title": "For talent",
+        "text": "A framework that treats engineering talent as central to sustainable digital development.",
+        "points": [
+          "A target for pay in the upper 30% of comparable local salaries, pending validation",
+          "Clear terms for scope, payment, leave and intellectual property",
+          "Mentorship and increasing responsibility when supported by real time",
+          "A voice in improving country benchmarks and working standards"
+        ]
+      },
+      {
+        "title": "For states & institutions",
+        "text": "A country-aware framework that can connect engineering practice to local policy and evidence.",
+        "points": [
+          "Contribute authoritative public data and policy context",
+          "Review local labor, procurement, tax and data considerations",
+          "Support a transparent country annex with a revision history",
+          "Identify evidence gaps before regional comparisons are published"
+        ]
+      },
+      {
+        "title": "For universities & incubators",
+        "text": "Potential partners in making mentorship and practical engineering experience more accessible.",
+        "points": [
+          "Help define useful early-career learning goals",
+          "Explore supervised project work with clear terms",
+          "Review mentorship capacity and engineering curricula",
+          "Share evidence on transitions from study to work"
+        ]
+      },
+      {
+        "title": "For agencies & freelancers",
+        "text": "Use the open principles to make delivery practices and commercial assumptions easier to explain.",
+        "points": [
+          "Explain how your project economics are formed",
+          "Document local adaptations and delivery responsibilities",
+          "Include mentorship when the project can support it",
+          "Contribute lessons and country evidence to the framework"
+        ]
+      }
+    ],
+    "cta": {
+      "title": "Explore your own assumptions",
+      "text": "Use the playground to see how an example budget changes when you adjust pay, delivery support and local costs.",
+      "primary": "Open the playground",
+      "secondary": "Contact MRVIN100"
     }
   },
   "joinPage": {
-    "title": "Join the MRVIN100 model",
-    "subtitle": "The model is open to companies and to countries that want engineering infrastructure aligned with their realities.",
+    "title": "Get involved",
+    "subtitle": "The framework is open to organizations and practitioners who want to review its principles, contribute country evidence or discuss a local adaptation.",
     "companies": {
       "title": "For companies",
-      "description": "Access a vetted engineering network, managed by an SDM, with fully transparent pricing.",
+      "description": "Explore how the principles could help make scope, pay assumptions and delivery responsibilities clearer.",
       "points": [
-        "Transparent pricing, no hidden fees",
-        "A dedicated Success Delivery Manager",
-        "72-hour replacement guarantee",
-        "Same timezone (CET/WAT)"
+        "An engineering need or project to discuss",
+        "The country and legal context for the work",
+        "The expected scope, budget and delivery conditions",
+        "Questions or feedback on the framework"
       ]
     },
     "countries": {
       "title": "For countries & institutions",
-      "description": "Adopt the model at national scale: we build certified local networks and institutional partnerships.",
+      "description": "Help describe local policy, labor-market, procurement and data conditions for a country profile.",
       "points": [
-        "Structuring the local tech ecosystem",
-        "Certification and development of engineers",
-        "Partnerships with universities and incubators",
-        "Contract frameworks aligned with your jurisdictions"
+        "Authoritative datasets and public sources",
+        "Relevant national or regional rules",
+        "Local contributors and review needs",
+        "Known data gaps and update cycles"
       ]
     },
     "criteria": {
-      "title": "Membership criteria",
-      "subtitle": "We keep the network small and serious. Organizations qualify when they meet:",
+      "title": "What helps the conversation",
+      "subtitle": "There is no membership threshold or certification programme yet. Useful starting points include:",
       "items": [
-        "A recurring engineering need (not a one-off project)",
-        "A minimum monthly budget of 1M FCFA (or EUR equivalent)",
-        "An identified decision-maker",
-        "A commitment to quality and continuous feedback"
+        "A concrete country, project or policy question",
+        "Evidence with a source, date and scope",
+        "Clear ownership for any proposed commitment",
+        "Willingness to document limits and feedback"
       ]
     },
     "process": {
       "title": "How to join",
       "steps": [
-        "Submit your organization via email with your context and needs.",
-        "A 30-minute discovery call with our team.",
-        "Alignment on scope, team composition and rates.",
-        "Kick-off within 72 hours of signing."
+        "Send your country or project context and the question you want to explore.",
+        "Review the relevant framework chapter and current evidence status.",
+        "Agree what can be shared and which assumptions need validation.",
+        "Record any next step, owner and update date."
       ]
     },
     "cta": {
-      "title": "Let's build together",
-      "text": "Write to us to join the MRVIN100 network — company, incubator or institution.",
-      "primary": "Email us",
+      "title": "Help make the framework more useful",
+      "text": "Share evidence, review an assumption or discuss a country adaptation.",
+      "primary": "Contact us",
       "secondary": "Read the documentation"
+    },
+    "contact": {
+      "title": "Start the conversation",
+      "text": "Tell us your country or region, role and question. We will route the conversation and reply with a clear next step.",
+      "placeholder": "you@company.com",
+      "button": "Email us",
+      "subject": "Joining the MRVIN100 model"
     }
   },
   "faqPage": {
     "title": "Frequently asked questions",
-    "subtitle": "Everything you need to know before getting started.",
+    "subtitle": "Everything you need to know before adopting the model.",
+    "contact": {
+      "title": "Still have a question?",
+      "text": "Write to us directly and a member of the collective will answer you.",
+      "placeholder": "you@company.com",
+      "button": "Ask a question",
+      "subject": "Question about the MRVIN100 model"
+    },
     "items": [
       {
-        "q": "Are the rates in EUR or FCFA?",
-        "a": "Both. Our reference rates are in FCFA — 15,000 (Junior), 25,000 (Middle) and 40,000 (Senior) FCFA per hour. International clients are billed monthly packages in EUR: €1,500 (Starter), €3,000 (Populaire) and €4,500 (Premium) per part-time developer (80h/month). The rate you sign is the rate you pay — no hidden fees."
+        "q": "Is MRVIN100 a company or a model?",
+        "a": "MRVIN100 is an open framework for organizing African engineering talent. Organizations and practitioners can adopt and help develop it. The framework is not a software platform or a two-sided hiring marketplace."
       },
       {
-        "q": "What's included in the Success Delivery Manager (SDM)?",
-        "a": "Your SDM is your single point of contact. They handle daily coordination with your developers, sprint planning, weekly progress reports, escalation of blockers and quality gates. An SDM manages at most 5 projects at a time — service quality is capped by design."
+        "q": "Does MRVIN100 prescribe one fixed developer share?",
+        "a": "No fixed percentage has been adopted. The model calls for transparent project economics and locally evidenced compensation. Its stated pay direction is to target the upper 30% of comparable salaries by country, role and experience; that target still needs a published method and current evidence."
       },
       {
-        "q": "How does the 72-hour replacement guarantee work?",
-        "a": "If your assigned developer underperforms, leaves or becomes unavailable, we present a replacement profile within 72 hours. The replacement benefits from a paid knowledge-transfer overlap so your project never stalls. No negotiation, no extra invoice."
+        "q": "Does the model guarantee lower prices than offshore providers?",
+        "a": "No. MRVIN100 asks organizations to compare scope, total cost, local context, accountability and quality. Prices depend on the work, country, experience and contract. The framework aims to make assumptions visible, not promise a discount."
       },
       {
-        "q": "What tech stacks do your developers cover?",
-        "a": "Our network covers React/Next.js, Node.js, Python, PostgreSQL, DevOps (Docker, AWS, CI/CD) and mobile development. Niche stacks are assessed during qualification — and we tell you honestly if we cannot staff them."
+        "q": "Does every project need a delivery manager?",
+        "a": "No. Each engagement should name who owns planning, technical decisions, review, communication, acceptance and handover. A delivery coordinator may help when the work needs one, but MRVIN100 does not currently mandate a specific role or project cap."
       },
       {
-        "q": "Is there a minimum contract duration?",
-        "a": "No fixed minimum. Part-time contracts run month to month; most clients start with a 3-month engagement, which matches our sprint cadence. Full-time contracts include an exclusivity clause that protects delivery quality."
+        "q": "Is there a replacement-time guarantee?",
+        "a": "No shared replacement window has been adopted. Any availability, replacement or remedy commitment must be agreed in the project contract and checked against local law."
       },
       {
-        "q": "Can I start part-time and scale to full-time?",
-        "a": "Yes — that is the standard path. Start part-time (80h/month) to validate the collaboration, then scale to full-time as your needs grow. Your developer, your SDM and your tooling stay identical."
+        "q": "Are country profiles complete?",
+        "a": "No. The atlas maps countries, but a mapped boundary does not mean validated market data or local adoption. Each profile should publish dated sources and clearly show missing evidence."
       }
     ]
   },
   "docs": {
     "label": "Documentation",
     "title": "The MRVIN100 Model",
-    "subtitle": "How we build engineering infrastructure aligned with African excellence — principles, pricing, governance and membership.",
+    "subtitle": "The full framework: principles, economics, governance, market-zone standards and membership. Everything is published so anyone can verify it.",
     "sidebarTitle": "The Model",
     "browseAll": "Browse all chapters",
     "prev": "Previous",
@@ -266,12 +393,14 @@
     "backToModel": "Back to the model overview"
   },
   "footer": {
-    "tagline": "Mrvin100.de — Engineering infrastructure for African enterprises. World-class engineering talent and operational systems, built for the continent.",
-    "locations": "Berlin · Yaoundé · Conakry",
+    "tagline": "MRVIN100 is building an open, country-adapted framework for organizing African engineering talent and growing local capability.",
+    "locations": "Country-aware · Evidence-led · Open to feedback",
+    "socialLabel": "MRVIN100 social profiles",
+    "socialNote": "Social icons are shown as a preview. Official profile links will be added when they are confirmed.",
+    "emailLabel": "Email us",
+    "emailNote": "Share a country source, question or framework feedback.",
     "email": "mrvin100mail@gmail.com",
-    "phones": "+237 658 778 110 (CM) · +224 614 179 276 (GN)",
-    "navTitle": "Navigation",
-    "contactTitle": "Contact",
+    "contactTitle": "Start a conversation",
     "rights": "© 2026 MRVIN100. All rights reserved."
   },
   "common": {

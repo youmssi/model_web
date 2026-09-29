@@ -7,7 +7,7 @@ import { getDocList } from "@/lib/docs"
 const docSlugs = getDocList("en").map((doc) => doc.slug)
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const staticPaths = ["", "pricing", "faq", "join", "model"]
+  const staticPaths = ["", "model", "simulator", "use-cases", "faq", "join"]
 
   const entries: MetadataRoute.Sitemap = []
 

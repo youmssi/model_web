@@ -28,16 +28,15 @@ export function SectionHeading({
       )}
     >
       {label ? (
-        <span className="inline-flex w-fit items-center gap-1.5 rounded-full border px-3 py-1 text-xs font-medium text-muted-foreground">
-          <span aria-hidden="true" className="size-1.5 rounded-full bg-gold" />
+        <span className="inline-flex w-fit items-center rounded-full border border-border px-3 py-1 text-xs font-medium text-muted-foreground">
           {label}
         </span>
       ) : null}
-      <TitleTag className="text-balance text-2xl font-semibold tracking-tight sm:text-3xl">
+      <TitleTag className="font-serif text-3xl font-medium tracking-tight text-balance sm:text-4xl">
         {title}
       </TitleTag>
       {subtitle ? (
-        <p className="max-w-2xl text-pretty text-sm leading-relaxed text-muted-foreground sm:text-base">
+        <p className="max-w-2xl text-sm leading-relaxed text-pretty text-muted-foreground sm:text-base">
           {subtitle}
         </p>
       ) : null}

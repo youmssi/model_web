@@ -3,7 +3,13 @@
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 
-import { Sheet, SheetClose, SheetContent, SheetTitle, SheetTrigger } from "@/components/ui/sheet"
+import {
+  Sheet,
+  SheetClose,
+  SheetContent,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet"
 import type { DocMeta } from "@/lib/docs"
 import { localePath, type Locale } from "@/lib/i18n/config"
 import { cn } from "@/lib/utils"
@@ -24,7 +30,7 @@ export function DocsSidebar({ locale, docs, labels }: DocsSidebarProps) {
       active && "bg-muted/70 font-medium text-foreground"
     )
 
-  const chapterLinks = docs.map((doc, index) => {
+  const chapterLinks = docs.map((doc) => {
     const href = localePath(locale, `model/${doc.slug}`)
     return (
       <Link
@@ -33,7 +39,7 @@ export function DocsSidebar({ locale, docs, labels }: DocsSidebarProps) {
         aria-current={pathname === href ? "page" : undefined}
         className={linkClassName(pathname === href)}
       >
-        <span className="w-5 shrink-0 text-xs tabular-nums text-muted-foreground/70">
+        <span className="w-5 shrink-0 text-xs text-muted-foreground/70 tabular-nums">
           {String(doc.order).padStart(2, "0")}
         </span>
         <span className="min-w-0 leading-snug">{doc.title}</span>
@@ -45,7 +51,10 @@ export function DocsSidebar({ locale, docs, labels }: DocsSidebarProps) {
     <>
       {/* Desktop: persistent chapter list */}
       <aside className="hidden lg:block">
-        <nav aria-label={labels.sidebarTitle} className="sticky top-20 flex flex-col gap-1">
+        <nav
+          aria-label={labels.sidebarTitle}
+          className="sticky top-20 flex flex-col gap-1"
+        >
           <p className="mb-2 px-3 text-xs font-semibold tracking-wider text-muted-foreground uppercase">
             {labels.sidebarTitle}
           </p>
@@ -76,8 +85,14 @@ export function DocsSidebar({ locale, docs, labels }: DocsSidebarProps) {
             <SheetTitle className="px-4 text-xs font-semibold tracking-wider text-muted-foreground uppercase">
               {labels.sidebarTitle}
             </SheetTitle>
-            <nav className="flex flex-col gap-1 p-4" aria-label={labels.sidebarTitle}>
-              <SheetClose render={<Link href={overviewHref} />} className={linkClassName(pathname === overviewHref)}>
+            <nav
+              className="flex flex-col gap-1 p-4"
+              aria-label={labels.sidebarTitle}
+            >
+              <SheetClose
+                render={<Link href={overviewHref} />}
+                className={linkClassName(pathname === overviewHref)}
+              >
                 {labels.browseAll}
               </SheetClose>
               {docs.map((doc) => {
@@ -88,7 +103,7 @@ export function DocsSidebar({ locale, docs, labels }: DocsSidebarProps) {
                     render={<Link href={href} />}
                     className={linkClassName(pathname === href)}
                   >
-                    <span className="w-5 shrink-0 text-xs tabular-nums text-muted-foreground/70">
+                    <span className="w-5 shrink-0 text-xs text-muted-foreground/70 tabular-nums">
                       {String(doc.order).padStart(2, "0")}
                     </span>
                     <span className="min-w-0 leading-snug">{doc.title}</span>
