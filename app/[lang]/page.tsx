@@ -4,7 +4,7 @@ import { notFound } from "next/navigation"
 import { DuskLanding } from "@/components/landing/dusk-landing"
 import { JsonLd } from "@/components/json-ld"
 import { getDictionary } from "@/lib/i18n/dictionaries"
-import { isLocale, siteUrl } from "@/lib/i18n/config"
+import { contactEmail, isLocale, siteUrl } from "@/lib/i18n/config"
 import { pageMetadata } from "@/lib/seo"
 
 interface PageProps {
