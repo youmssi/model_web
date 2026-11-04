@@ -13,7 +13,7 @@ export const siteUrl = (
   process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ?? "https://mrvin100.de"
 )
 
-export const contactEmail = "mrvin100mail@gmail.com"
+export const contactEmail = "contact@mrvin100.de"
 
 /** Build a locale-prefixed path, e.g. localePath("fr", "join") -> "/fr/join". */
 export function localePath(locale: Locale, path = ""): string {
