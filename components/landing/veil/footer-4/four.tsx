@@ -11,7 +11,7 @@ interface FooterProps {
   nav: Dictionary["nav"]
 }
 
-function SocialMark({ network }: { network: "linkedin" | "instagram" | "github" }) {
+function SocialMark({ network }: { network: "linkedin" | "instagram" | "facebook" | "discord" }) {
   if (network === "linkedin") {
     return (
       <svg viewBox="0 0 24 24" aria-hidden="true" className="size-4 fill-current">
@@ -30,9 +30,17 @@ function SocialMark({ network }: { network: "linkedin" | "instagram" | "github" 
     )
   }
 
+  if (network === "facebook") {
+    return (
+      <svg viewBox="0 0 24 24" aria-hidden="true" className="size-4 fill-current">
+        <path d="M13.5 21v-7.6h2.55l.4-3h-2.95V8.4c0-.87.24-1.46 1.5-1.46H16.5V4.26A14 14 0 0 0 14.6 4.1c-2.07 0-3.5 1.26-3.5 3.58v2.72H8.75v3h2.35V21Z" />
+      </svg>
+    )
+  }
+
   return (
     <svg viewBox="0 0 24 24" aria-hidden="true" className="size-4 fill-current">
-      <path d="M12 .9a11.1 11.1 0 0 0-3.5 21.6c.6.1.8-.3.8-.6v-2.1c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.6-1.3-1.6-1-.7.1-.7.1-.7 1.1.1 1.7 1.2 1.7 1.2 1 1.7 2.6 1.2 3.3.9.1-.7.4-1.2.7-1.5-2.5-.3-5.2-1.3-5.2-5.5 0-1.2.4-2.1 1.2-2.9-.1-.3-.5-1.4.1-2.9 0 0 1-.3 3.1 1.1a10.8 10.8 0 0 1 5.7 0c2.2-1.5 3.1-1.1 3.1-1.1.6 1.5.2 2.6.1 2.9.8.8 1.2 1.7 1.2 2.9 0 4.2-2.7 5.1-5.2 5.4.4.3.8 1 .8 2v3c0 .3.2.7.8.6A11.1 11.1 0 0 0 12 .9Z" />
+      <path d="M20.3 4.5c-1.5-.7-3.2-1.2-4.9-1.5-.2.4-.4.9-.6 1.2-1.8-.3-3.7-.3-5.5 0-.2-.4-.4-.8-.6-1.2-1.7.3-3.4.8-4.9 1.5C.5 9.1-.3 13.6.1 18c1.9 1.4 3.8 2.3 6 2.9.5-.6.9-1.3 1.2-2-.6-.2-1.3-.6-1.9-.9.1-.1.3-.2.4-.3 3.9 1.8 8.2 1.8 12.1 0 .1.1.2.2.4.3-.6.3-1.2.6-1.9.9.3.7.7 1.3 1.2 2 2.2-.6 4.1-1.6 6-2.9.5-5.1-.8-9.5-3.5-13.4ZM8 15.3c-1.2 0-2.2-1.1-2.2-2.4 0-1.3 1-2.4 2.2-2.4s2.2 1.1 2.2 2.4c0 1.3-1 2.4-2.2 2.4Zm8 0c-1.2 0-2.2-1.1-2.2-2.4 0-1.3 1-2.4 2.2-2.4s2.2 1.1 2.2 2.4c0 1.3-1 2.4-2.2 2.4Z" />
     </svg>
   )
 }
@@ -66,9 +74,34 @@ export default function Footer({ locale, copy, nav }: FooterProps) {
             <Logo href={localePath(locale)} />
             <p className="mt-4 max-w-sm text-sm leading-6 text-muted-foreground">{copy.tagline}</p>
             <div className="mt-5 flex items-center gap-2" role="group" aria-label={copy.socialLabel}>
-              <span aria-hidden="true" className="inline-flex size-9 items-center justify-center rounded-full border border-border/70 bg-background/70 text-muted-foreground"><SocialMark network="linkedin" /></span>
+              <a
+                href="https://linkedin.com/company/mrvin100"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+                className="inline-flex size-9 items-center justify-center rounded-full border border-border/70 bg-background/70 text-muted-foreground transition-colors hover:border-border hover:text-foreground"
+              >
+                <SocialMark network="linkedin" />
+              </a>
               <span aria-hidden="true" className="inline-flex size-9 items-center justify-center rounded-full border border-border/70 bg-background/70 text-muted-foreground"><SocialMark network="instagram" /></span>
-              <span aria-hidden="true" className="inline-flex size-9 items-center justify-center rounded-full border border-border/70 bg-background/70 text-muted-foreground"><SocialMark network="github" /></span>
+              <a
+                href="https://facebook.com/mrvin100.de"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+                className="inline-flex size-9 items-center justify-center rounded-full border border-border/70 bg-background/70 text-muted-foreground transition-colors hover:border-border hover:text-foreground"
+              >
+                <SocialMark network="facebook" />
+              </a>
+              <a
+                href="https://discord.gg/JeJV9M6n"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={copy.communityLabel}
+                className="inline-flex size-9 items-center justify-center rounded-full border border-border/70 bg-background/70 text-muted-foreground transition-colors hover:border-border hover:text-foreground"
+              >
+                <SocialMark network="discord" />
+              </a>
             </div>
             <p className="mt-2 text-xs leading-5 text-muted-foreground">{copy.socialNote}</p>
           </div>

@@ -4,7 +4,7 @@ import { notFound } from "next/navigation"
 import { DuskLanding } from "@/components/landing/dusk-landing"
 import { JsonLd } from "@/components/json-ld"
 import { getDictionary } from "@/lib/i18n/dictionaries"
-import { isLocale, siteUrl } from "@/lib/i18n/config"
+import { contactEmail, isLocale, siteUrl } from "@/lib/i18n/config"
 import { pageMetadata } from "@/lib/seo"
 
 interface PageProps {
@@ -34,7 +34,7 @@ export default async function HomePage({ params }: PageProps) {
     "@type": "Organization",
     name: "MRVIN100",
     url: siteUrl,
-    email: "mrvin100mail@gmail.com",
+    email: contactEmail,
     description: dict.meta.description,
   }
 
