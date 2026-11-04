@@ -34,7 +34,7 @@ export default async function HomePage({ params }: PageProps) {
     "@type": "Organization",
     name: "MRVIN100",
     url: siteUrl,
-    email: "mrvin100mail@gmail.com",
+    email: contactEmail,
     description: dict.meta.description,
   }
 
